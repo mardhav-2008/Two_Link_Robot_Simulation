@@ -1,0 +1,17 @@
+[project]
+name = "two-link-robot-simulation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mardhav-2008", email = "mardhavrayapati81@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+two-link-robot-simulation = "two_link_robot_simulation:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
