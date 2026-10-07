@@ -7,7 +7,11 @@ authors = [
     { name = "mardhav-2008", email = "mardhavrayapati81@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.3",
+    "plotly>=7.1.0",
+    "pygame-ce>=2.5.8",
+]
 
 [project.scripts]
 two-link-robot-simulation = "two_link_robot_simulation:main"
