@@ -19,3 +19,20 @@ def ForwardKinematics(
     y_end = L1 * np.sin(theta1) + L2 * np.sin(theta1 + theta2)
 
     return ((x_1, y_1), (x_end, y_end))
+
+
+def InverseKinematics(robot: Robot, target: np.ndarray) -> np.ndarray:
+    x, y = target
+
+    links = robot.links
+    L1 = links[0].length
+    L2 = links[1].length
+
+    cos_theta2 = (x**2 + y**2 - L1**2 - L2**2) / (2 * L1 * L2)
+    cos_theta2 = np.clip(cos_theta2, -1.0, 1.0)
+
+    theta2 = np.atan2(np.sqrt(1 - cos_theta2**2), cos_theta2)
+
+    theta1 = np.atan2(y, x) - np.atan2(L2 * np.sin(theta2), L1 + L2 * np.cos(theta2))
+
+    return np.array([theta1, theta2])

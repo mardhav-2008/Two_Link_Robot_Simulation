@@ -2,7 +2,7 @@ import numpy as np
 
 from robot import Robot
 
-g = 10
+g = 9.81
 
 
 def ForwardDynamics(
@@ -11,7 +11,7 @@ def ForwardDynamics(
     links = robot.links
     theta1_dot, theta2_dot = velocity
 
-    theta1, theta2 = q
+    _theta1, theta2 = q
 
     I = np.array([link.inertia for link in links])
 
@@ -34,6 +34,24 @@ def ForwardDynamics(
 
     M = np.array([[M_11, M_12], [M_12, M_22]])
 
+    h = -1 / 2 * links[1].mass * links[0].length * links[1].length * np.sin(theta2)
+
+    C_1 = h * (2 * theta1_dot * theta2_dot + theta2_dot**2)
+    C_2 = -h * theta1_dot**2
+
+    C = np.array([C_1, C_2])
+
+    G = Gravity(robot, q)
+
+    acceleration = np.linalg.solve(M, tau - C - G)
+
+    return acceleration
+
+
+def Gravity(robot: Robot, q: np.ndarray) -> np.ndarray:
+    links = robot.links
+    theta1, theta2 = q
+
     G_1 = 1 / 2 * links[0].mass * g * links[0].length * np.cos(theta1) + links[
         1
     ].mass * g * (
@@ -43,15 +61,4 @@ def ForwardDynamics(
 
     G_2 = 1 / 2 * links[1].mass * g * links[1].length * np.cos(theta1 + theta2)
 
-    G = np.array([G_1, G_2])
-
-    h = -1 / 2 * links[1].mass * links[0].length * links[1].length * np.sin(theta2)
-
-    C_1 = h * (2 * theta1_dot * theta2_dot + theta2_dot**2)
-    C_2 = -h * theta1_dot**2
-
-    C = np.array([C_1, C_2])
-
-    acceleration = np.linalg.solve(M, tau - C - G)
-
-    return acceleration
+    return np.array([G_1, G_2])
