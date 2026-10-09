@@ -5,6 +5,7 @@ import dynamics
 from controller import PDController
 from kinematics import ForwardKinematics, InverseKinematics
 from robot import Link, Robot
+from tkinter_controls import ControlPanel
 
 HEIGHT = 720
 WIDTH = 1080
@@ -38,6 +39,9 @@ def main():
     target = None
 
     pygame.init()
+    mode = 1
+    panel = ControlPanel()
+    panel.hide()
 
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     clock = pygame.time.Clock()
@@ -46,6 +50,8 @@ def main():
     running = True
 
     while running:
+        panel.root.update()
+
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
@@ -56,7 +62,16 @@ def main():
                 elif event.key == pygame.K_g:
                     dynamics.g = 0 if dynamics.g != 0 else 9.81
 
-            if event.type == pygame.MOUSEBUTTONDOWN:
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_TAB:
+                mode = 2 if mode == 1 else 1
+
+                if mode == 2:
+                    panel.show()
+
+                if mode == 1:
+                    panel.hide()
+
+            elif event.type == pygame.MOUSEBUTTONDOWN and mode == 1:
                 mouse_x, mouse_y = event.pos
 
                 x = (mouse_x - BASE[0]) / SCALE
@@ -65,6 +80,16 @@ def main():
                 target = np.array([x, y])
 
                 q_d = InverseKinematics(robot, target)
+        if mode == 2:
+            theta1 = panel.theta1.get()
+            theta2 = panel.theta2.get()
+            kp = panel.kp.get()
+            kd = panel.kd.get()
+
+            controller.kp = int(kp)
+            controller.kd = int(kd)
+
+            q_d = np.array([theta1, theta2])
 
         dt = clock.tick(FRAMES_PER_SECOND) / 1000
         screen.fill(BLACK)
@@ -88,6 +113,7 @@ def main():
             BASE[0] + fk[1][0] * SCALE,
             BASE[1] - fk[1][1] * SCALE,
         )
+        mode_text = font.render(f"MODE = {mode}", True, WHITE)
         gravity_text = font.render(f"g = {dynamics.g}", True, WHITE)
         q_text = font.render(f"theta1 = {q[0]:.2f}, theta2 = {q[1]:.2f}", True, WHITE)
         q_dot_text = font.render(
@@ -98,7 +124,7 @@ def main():
             f"qd - q = ({(q_d[0] - q[0]):.2f}, {(q_d[1] - q[1]):.2f})", True, WHITE
         )
 
-        if target is not None:
+        if target is not None and mode == 1:
             target_screen = (
                 BASE[0] + target[0] * SCALE,
                 BASE[1] - target[1] * SCALE,
@@ -109,6 +135,7 @@ def main():
         pygame.draw.circle(screen, RED, BASE, 8)
         pygame.draw.circle(screen, GREEN, J2, 8)
         pygame.draw.circle(screen, BLUE, END, 8)
+        screen.blit(mode_text, (20, 0))
         screen.blit(gravity_text, (20, 20))
         screen.blit(q_text, (20, 60))
         screen.blit(q_dot_text, (20, 100))
@@ -118,6 +145,7 @@ def main():
         pygame.display.flip()
 
     pygame.quit()
+    panel.close()
 
 
 if __name__ == "__main__":
