@@ -21,12 +21,16 @@ def ForwardKinematics(
     return ((x_1, y_1), (x_end, y_end))
 
 
-def InverseKinematics(robot: Robot, target: np.ndarray) -> np.ndarray:
+def InverseKinematics(robot: Robot, target: np.ndarray) -> np.ndarray | None:
     x, y = target
+    d = np.sqrt(x**2 + y**2)
 
     links = robot.links
     L1 = links[0].length
     L2 = links[1].length
+
+    if d > L1 + L2 or d < abs(L1 - L2):
+        return None
 
     cos_theta2 = (x**2 + y**2 - L1**2 - L2**2) / (2 * L1 * L2)
     cos_theta2 = np.clip(cos_theta2, -1.0, 1.0)

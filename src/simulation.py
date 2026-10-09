@@ -7,8 +7,8 @@ from kinematics import ForwardKinematics, InverseKinematics
 from robot import Link, Robot
 from tkinter_controls import ControlPanel
 
-HEIGHT = 720
-WIDTH = 1080
+HEIGHT = 900
+WIDTH = 1600
 FRAMES_PER_SECOND = 120
 SCALE = 150
 
@@ -17,6 +17,8 @@ BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
+PURPLE = (139, 92, 246)
+GREY = (128, 128, 128)
 
 PI = np.pi
 BASE = (WIDTH / 2, HEIGHT / 2)
@@ -27,7 +29,7 @@ KD = 30
 def main():
 
     link1 = Link()
-    link2 = Link()
+    link2 = Link(2)
     robot = Robot([link1, link2])
     controller = PDController(KP, KD)
 
@@ -37,6 +39,7 @@ def main():
     q_d = np.zeros(2)
     q_d_dot = np.array([0.0, 0.0])
     target = None
+    reachable = 0
 
     pygame.init()
     mode = 1
@@ -79,7 +82,14 @@ def main():
 
                 target = np.array([x, y])
 
-                q_d = InverseKinematics(robot, target)
+                new_q_d = InverseKinematics(robot, target)
+
+                if new_q_d is not None:
+                    q_d = new_q_d
+                    reachable = 1
+                else:
+                    reachable = 0
+
         if mode == 2:
             theta1 = panel.theta1.get()
             theta2 = panel.theta2.get()
@@ -120,27 +130,39 @@ def main():
             f"theta1_dot = {q_dot[0]:.2f}, theta2_dot = {q_dot[1]:.2f}", True, WHITE
         )
         tau_text = font.render(f"tau1 = {tau[0]:.2f}, tau2 = {tau[1]:.2f}", True, WHITE)
-        difference_text = font.render(
-            f"qd - q = ({(q_d[0] - q[0]):.2f}, {(q_d[1] - q[1]):.2f})", True, WHITE
-        )
+        if reachable:
+            difference_text = font.render(
+                f"qd - q = ({(q_d[0] - q[0]):.2f}, {(q_d[1] - q[1]):.2f})", True, WHITE
+            )
+        else:
+            difference_text = font.render("Point is not reachable", True, WHITE)
 
+        pygame.draw.circle(
+            screen, PURPLE, BASE, (link1.length + link2.length) * SCALE, 2
+        )
+        pygame.draw.circle(
+            screen, GREY, BASE, abs(link1.length - link2.length) * SCALE, 2
+        )
         if target is not None and mode == 1:
             target_screen = (
                 BASE[0] + target[0] * SCALE,
                 BASE[1] - target[1] * SCALE,
             )
-            pygame.draw.circle(screen, RED, target_screen, 8)
+            if reachable:
+                pygame.draw.circle(screen, RED, target_screen, 8)
+            else:
+                pygame.draw.circle(screen, GREY, target_screen, 8)
         pygame.draw.aaline(screen, WHITE, BASE, J2)
         pygame.draw.aaline(screen, WHITE, J2, END)
         pygame.draw.circle(screen, RED, BASE, 8)
         pygame.draw.circle(screen, GREEN, J2, 8)
         pygame.draw.circle(screen, BLUE, END, 8)
         screen.blit(mode_text, (20, 0))
-        screen.blit(gravity_text, (20, 20))
+        screen.blit(gravity_text, (20, 30))
         screen.blit(q_text, (20, 60))
-        screen.blit(q_dot_text, (20, 100))
-        screen.blit(tau_text, (20, 140))
-        screen.blit(difference_text, (20, 180))
+        screen.blit(q_dot_text, (20, 90))
+        screen.blit(tau_text, (20, 120))
+        screen.blit(difference_text, (20, 150))
 
         pygame.display.flip()
 
