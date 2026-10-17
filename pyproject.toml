@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "matplotlib>=3.11.2",
     "numpy>=2.5.3",
     "plotly>=7.1.0",
     "pygame-ce>=2.5.8",
@@ -15,7 +16,13 @@ dependencies = [
 
 [project.scripts]
 two-link-robot-simulation = "two_link_robot_simulation:main"
+robot-sim = "two_link_robot_simulation.simulation:simulation"
 
 [build-system]
 requires = ["uv_build>=0.12.20,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

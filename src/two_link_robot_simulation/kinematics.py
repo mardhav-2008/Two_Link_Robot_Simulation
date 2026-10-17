@@ -1,6 +1,6 @@
 import numpy as np
 
-from robot import Robot
+from .robot import Robot
 
 PI = np.pi
 BASE = (0, 0)

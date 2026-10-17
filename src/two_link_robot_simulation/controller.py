@@ -1,10 +1,8 @@
 import numpy as np
 
-PI = np.pi
-
 
 class PDController:
-    def __init__(self, kp, kd) -> None:
+    def __init__(self, kp: float, kd: float) -> None:
         self.kp = kp
         self.kd = kd
 
@@ -15,5 +13,4 @@ class PDController:
         q_d: np.ndarray,
         q_d_dot: np.ndarray,
     ) -> np.ndarray:
-
         return self.kp * (q_d - q) + self.kd * (q_d_dot - q_dot)
