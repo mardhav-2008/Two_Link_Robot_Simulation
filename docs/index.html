@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Link Robot Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="top">
+        <div>
+            <p class="small-title">ROBOTICS PROJECT</p>
+            <h1>Two Link Robot Simulation</h1>
+            <p class="subtitle">
+                A small simulation project for studying robot dynamics,
+                kinematics and PID control.
+            </p>
+        </div>
+        <a class="github" href="https://github.com/mardhav-2008/Two_Link_Robot_Simulation" target="_blank">
+            View on GitHub ↗
+        </a>
+    </header>
+
+    <main>
+        <section class="intro card">
+            <h2>What is this?</h2>
+            <p>
+                This project simulates a two-link robotic arm. The Python
+                implementation contains the actual simulation, controller,
+                kinematics and metrics. This page is a simple visual
+                interface for exploring some of the results.
+            </p>
+
+            <div class="tags">
+                <span>Python</span>
+                <span>PID Control</span>
+                <span>Kinematics</span>
+                <span>Dynamics</span>
+                <span>Simulation</span>
+            </div>
+        </section>
+
+        <section class="simulation card">
+            <div class="section-heading">
+                <div>
+                    <p class="small-title">INTERACTIVE VIEW</p>
+                    <h2>Two Link Arm</h2>
+                </div>
+                <button id="resetBtn">Reset</button>
+            </div>
+
+            <div class="sim-layout">
+                <div class="canvas-wrap">
+                    <canvas id="robotCanvas" width="650" height="430"></canvas>
+                </div>
+
+                <div class="controls">
+                    <label>
+                        Joint 1
+                        <input id="theta1" type="range" min="-180" max="180" value="35">
+                        <span id="theta1Value">35°</span>
+                    </label>
+
+                    <label>
+                        Joint 2
+                        <input id="theta2" type="range" min="-180" max="180" value="55">
+                        <span id="theta2Value">55°</span>
+                    </label>
+
+                    <div class="readout">
+                        <div>
+                            <span>End X</span>
+                            <strong id="endX">0.00</strong>
+                        </div>
+                        <div>
+                            <span>End Y</span>
+                            <strong id="endY">0.00</strong>
+                        </div>
+                    </div>
+
+                    <p class="hint">
+                        Move the sliders to change the joint angles.
+                        The animation here is a browser-side visualization;
+                        the main simulation remains in Python.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <p class="small-title">RESULTS</p>
+            <h2>Controller Results</h2>
+
+            <div class="stats">
+                <div class="stat">
+                    <span>Best Controller</span>
+                    <strong id="bestController">PID</strong>
+                </div>
+                <div class="stat">
+                    <span>Settling Time</span>
+                    <strong id="settlingTime">--</strong>
+                </div>
+                <div class="stat">
+                    <span>Overshoot</span>
+                    <strong id="overshoot">--</strong>
+                </div>
+            </div>
+
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Controller</th>
+                            <th>Settling Time</th>
+                            <th>Overshoot</th>
+                            <th>Stability</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultsTable">
+                        <tr>
+                            <td colspan="4">Loading results...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card two-column">
+            <div>
+                <p class="small-title">METHOD</p>
+                <h2>How it works</h2>
+                <ol>
+                    <li>Model the two-link robot.</li>
+                    <li>Calculate its kinematics and dynamics.</li>
+                    <li>Apply a controller to move the joints.</li>
+                    <li>Measure the resulting behaviour.</li>
+                    <li>Compare controller configurations.</li>
+                </ol>
+            </div>
+
+            <div>
+                <p class="small-title">PROJECT STRUCTURE</p>
+                <h2>Python side</h2>
+                <pre><code>src/
+└── two_link_robot_simulation/
+    ├── controller.py
+    ├── dynamics.py
+    ├── kinematics.py
+    ├── metrics.py
+    ├── robot.py
+    └── simulation.py</code></pre>
+            </div>
+        </section>
+
+        <section class="card">
+            <p class="small-title">OPTIMIZATION</p>
+            <h2>Pareto Frontier</h2>
+            <p>
+                The Python project also evaluates controller configurations
+                and stores the Pareto-optimal results. The chart below is
+                drawn from the exported data.
+            </p>
+            <canvas id="paretoCanvas" width="800" height="350"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built as a student robotics project · Two Link Robot Simulation</p>
+    </footer>
+
+    <script src="js/robot.js"></script>
+    <script src="js/plots.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
