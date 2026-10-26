@@ -1,0 +1,178 @@
+[
+  {
+    "kp": 80,
+    "kd": 65,
+    "settling_time": 4.420833333333333,
+    "steady_state_error": 0.009511048933988868,
+    "max_overshoot": 13.92481685715527,
+    "peak_torque": 357.2343145925919
+  },
+  {
+    "kp": 85,
+    "kd": 65,
+    "settling_time": 4.241666666666666,
+    "steady_state_error": 0.019068162948970957,
+    "max_overshoot": 15.135744091390674,
+    "peak_torque": 365.81501062557015
+  },
+  {
+    "kp": 85,
+    "kd": 70,
+    "settling_time": 4.354166666666667,
+    "steady_state_error": 0.008011107371075275,
+    "max_overshoot": 12.211221335008144,
+    "peak_torque": 365.81501062557015
+  },
+  {
+    "kp": 85,
+    "kd": 75,
+    "settling_time": 4.458333333333333,
+    "steady_state_error": 0.007534292446981964,
+    "max_overshoot": 9.631262510513485,
+    "peak_torque": 365.81501062557015
+  },
+  {
+    "kp": 90,
+    "kd": 70,
+    "settling_time": 4.1875,
+    "steady_state_error": 0.015682674314158707,
+    "max_overshoot": 13.320792366479994,
+    "peak_torque": 374.4049960194176
+  },
+  {
+    "kp": 90,
+    "kd": 75,
+    "settling_time": 4.291666666666667,
+    "steady_state_error": 0.006668732027159248,
+    "max_overshoot": 10.679051325795951,
+    "peak_torque": 374.4049960194176
+  },
+  {
+    "kp": 90,
+    "kd": 80,
+    "settling_time": 4.3875,
+    "steady_state_error": 0.006383360754416913,
+    "max_overshoot": 8.352515785078571,
+    "peak_torque": 374.4049960194176
+  },
+  {
+    "kp": 90,
+    "kd": 85,
+    "settling_time": 4.466666666666667,
+    "steady_state_error": 0.010406086627006646,
+    "max_overshoot": 6.327448517642965,
+    "peak_torque": 374.4049960194176
+  },
+  {
+    "kp": 90,
+    "kd": 100,
+    "settling_time": 4.458333333333333,
+    "steady_state_error": 0.014850884781183548,
+    "max_overshoot": 1.9820784380212473,
+    "peak_torque": 374.4049960194176
+  },
+  {
+    "kp": 95,
+    "kd": 70,
+    "settling_time": 4.0375,
+    "steady_state_error": 0.024397981284811934,
+    "max_overshoot": 14.389805496228892,
+    "peak_torque": 383.00364575077
+  },
+  {
+    "kp": 95,
+    "kd": 75,
+    "settling_time": 4.1375,
+    "steady_state_error": 0.012499670211393163,
+    "max_overshoot": 11.695473367545544,
+    "peak_torque": 383.00364575077
+  },
+  {
+    "kp": 95,
+    "kd": 80,
+    "settling_time": 4.233333333333333,
+    "steady_state_error": 0.005508349686494798,
+    "max_overshoot": 9.30604543189237,
+    "peak_torque": 383.00364575077
+  },
+  {
+    "kp": 95,
+    "kd": 85,
+    "settling_time": 4.3125,
+    "steady_state_error": 0.005669878652008315,
+    "max_overshoot": 7.207309296461671,
+    "peak_torque": 383.00364575077
+  },
+  {
+    "kp": 95,
+    "kd": 90,
+    "settling_time": 4.375,
+    "steady_state_error": 0.00901959482005777,
+    "max_overshoot": 5.388696147021287,
+    "peak_torque": 383.00364575077
+  },
+  {
+    "kp": 95,
+    "kd": 95,
+    "settling_time": 4.4,
+    "steady_state_error": 0.011502393649775296,
+    "max_overshoot": 3.8431664542528674,
+    "peak_torque": 383.00364575077
+  },
+  {
+    "kp": 95,
+    "kd": 100,
+    "settling_time": 4.379166666666666,
+    "steady_state_error": 0.012644086243807069,
+    "max_overshoot": 2.566770927693042,
+    "peak_torque": 383.00364575077
+  },
+  {
+    "kp": 100,
+    "kd": 75,
+    "settling_time": 3.995833333333333,
+    "steady_state_error": 0.01911404929530496,
+    "max_overshoot": 12.680338288258,
+    "peak_torque": 391.610389087457
+  },
+  {
+    "kp": 100,
+    "kd": 80,
+    "settling_time": 4.0875,
+    "steady_state_error": 0.00971318241762949,
+    "max_overshoot": 10.236587962917005,
+    "peak_torque": 391.610389087457
+  },
+  {
+    "kp": 100,
+    "kd": 85,
+    "settling_time": 4.170833333333333,
+    "steady_state_error": 0.0045810217668608546,
+    "max_overshoot": 8.07412265924411,
+    "peak_torque": 391.610389087457
+  },
+  {
+    "kp": 100,
+    "kd": 90,
+    "settling_time": 4.241666666666666,
+    "steady_state_error": 0.005241934273704496,
+    "max_overshoot": 6.181714500615679,
+    "peak_torque": 391.610389087457
+  },
+  {
+    "kp": 100,
+    "kd": 95,
+    "settling_time": 4.283333333333333,
+    "steady_state_error": 0.008038737069557529,
+    "max_overshoot": 4.551380902933296,
+    "peak_torque": 391.610389087457
+  },
+  {
+    "kp": 100,
+    "kd": 100,
+    "settling_time": 4.2875,
+    "steady_state_error": 0.010042179809504797,
+    "max_overshoot": 3.1782139094035093,
+    "peak_torque": 391.610389087457
+  }
+]
