@@ -2,8 +2,10 @@ import numpy as np
 import pygame
 
 from . import dynamics
+from .controller import wrap_angle
 from .kinematics import ForwardKinematics
 from .robot import Robot
+from .trajectory import QuinticTrajectory
 
 WIDTH = 1600
 HEIGHT = 900
@@ -16,6 +18,11 @@ GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 PURPLE = (139, 92, 246)
 GREY = (128, 128, 128)
+DARK_GREY = (70, 70, 70)
+CYAN = (34, 211, 238)
+
+# Number of samples used to draw the planned end-effector path.
+PATH_SAMPLES = 60
 
 BASE = (WIDTH / 2, HEIGHT / 2)
 
@@ -39,6 +46,11 @@ def render(
     target: np.ndarray | None,
     reachable: bool,
     mode: int,
+    q_ref: np.ndarray | None = None,
+    trajectory: QuinticTrajectory | None = None,
+    t: float = 0.0,
+    control_mode: str = "pd_gravity",
+    torque_limited: bool = False,
 ):
     fk = ForwardKinematics(robot, q)
 
@@ -77,9 +89,10 @@ def render(
         WHITE,
     )
 
-    if reachable:
+    if reachable or mode == 2:
+        goal_error = wrap_angle(q_d - q)
         difference_text = font.render(
-            f"qd - q = ({q_d[0] - q[0]:.2f}, {q_d[1] - q[1]:.2f})",
+            f"goal - q = ({goal_error[0]:.2f}, {goal_error[1]:.2f})",
             True,
             WHITE,
         )
@@ -115,6 +128,12 @@ def render(
         target_color = RED if reachable else GREY
         pygame.draw.circle(screen, target_color, target_screen, 8)
 
+    if trajectory is not None:
+        draw_planned_path(robot, trajectory, t)
+
+    if q_ref is not None:
+        draw_reference_arm(robot, q_ref)
+
     pygame.draw.aaline(screen, WHITE, BASE, J2)
     pygame.draw.aaline(screen, WHITE, J2, END)
 
@@ -129,4 +148,55 @@ def render(
     screen.blit(tau_text, (20, 120))
     screen.blit(difference_text, (20, 150))
 
+    control_text = font.render(
+        f"control = {control_mode} [F]   torque limit = "
+        f"{'on' if torque_limited else 'off'} [L]",
+        True,
+        WHITE,
+    )
+    screen.blit(control_text, (20, 180))
+
+    if q_ref is not None:
+        tracking_error = wrap_angle(q_ref - q)
+        tracking_text = font.render(
+            f"tracking error = ({tracking_error[0]:.3f}, {tracking_error[1]:.3f})",
+            True,
+            CYAN,
+        )
+        screen.blit(tracking_text, (20, 210))
+
+    if trajectory is not None:
+        remaining = max(0.0, trajectory.t_end - t)
+        move_text = font.render(
+            f"move time = {trajectory.duration:.2f} s, remaining = {remaining:.2f} s",
+            True,
+            WHITE,
+        )
+        screen.blit(move_text, (20, 240))
+
     pygame.display.flip()
+
+
+def to_screen(point) -> tuple[float, float]:
+    return (BASE[0] + point[0] * SCALE, BASE[1] - point[1] * SCALE)
+
+
+def draw_reference_arm(robot: Robot, q_ref: np.ndarray):
+    """Ghost arm at the planned (reference) pose."""
+    elbow, end = ForwardKinematics(robot, q_ref)
+
+    pygame.draw.line(screen, DARK_GREY, BASE, to_screen(elbow), 3)
+    pygame.draw.line(screen, DARK_GREY, to_screen(elbow), to_screen(end), 3)
+
+
+def draw_planned_path(robot: Robot, trajectory: QuinticTrajectory, t: float):
+    """Remaining end-effector path of the current move."""
+    if trajectory.is_finished(t):
+        return
+
+    times = np.linspace(t, trajectory.t_end, PATH_SAMPLES)
+    points = [to_screen(ForwardKinematics(robot, trajectory.sample(s)[0])[1]) for s in times]
+
+    # Every other segment: a dashed line.
+    for a, b in zip(points[0:-1:2], points[1::2]):
+        pygame.draw.aaline(screen, CYAN, a, b)
