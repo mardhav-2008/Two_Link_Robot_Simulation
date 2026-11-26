@@ -5,12 +5,8 @@ from .robot import Robot
 g = 9.81
 
 
-def ForwardDynamics(
-    robot: Robot, q: np.ndarray, velocity: np.ndarray, tau: np.ndarray
-) -> np.ndarray:
+def MassMatrix(robot: Robot, q: np.ndarray) -> np.ndarray:
     links = robot.links
-    theta1_dot, theta2_dot = velocity
-
     _theta1, theta2 = q
 
     I = np.array([link.inertia for link in links])
@@ -32,20 +28,41 @@ def ForwardDynamics(
 
     M_22 = I[1] + 1 / 4 * links[1].mass * links[1].length ** 2
 
-    M = np.array([[M_11, M_12], [M_12, M_22]])
+    return np.array([[M_11, M_12], [M_12, M_22]])
+
+
+def Coriolis(robot: Robot, q: np.ndarray, velocity: np.ndarray) -> np.ndarray:
+    links = robot.links
+    theta1_dot, theta2_dot = velocity
+    _theta1, theta2 = q
 
     h = -1 / 2 * links[1].mass * links[0].length * links[1].length * np.sin(theta2)
 
     C_1 = h * (2 * theta1_dot * theta2_dot + theta2_dot**2)
     C_2 = -h * theta1_dot**2
 
-    C = np.array([C_1, C_2])
+    return np.array([C_1, C_2])
 
+
+def ForwardDynamics(
+    robot: Robot, q: np.ndarray, velocity: np.ndarray, tau: np.ndarray
+) -> np.ndarray:
+    M = MassMatrix(robot, q)
+    C = Coriolis(robot, q, velocity)
     G = Gravity(robot, q)
 
-    acceleration = np.linalg.solve(M, tau - C - G)
+    return np.linalg.solve(M, tau - C - G)
 
-    return acceleration
+
+def InverseDynamics(
+    robot: Robot, q: np.ndarray, velocity: np.ndarray, acceleration: np.ndarray
+) -> np.ndarray:
+    """Joint torques needed to produce the given acceleration: M q_ddot + C + G."""
+    return (
+        MassMatrix(robot, q) @ acceleration
+        + Coriolis(robot, q, velocity)
+        + Gravity(robot, q)
+    )
 
 
 def Gravity(robot: Robot, q: np.ndarray) -> np.ndarray:

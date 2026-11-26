@@ -1,0 +1,40 @@
+{
+  "modes": [
+    {
+      "mode": "pd_gravity",
+      "runs": 400,
+      "settled": 37,
+      "pareto_points": 37,
+      "best": {
+        "rank": 1,
+        "kp": 100,
+        "kd": 100,
+        "score": 0.29096785562624616,
+        "settling_time": 4.854166666666666,
+        "steady_state_error": 0.004798767619696307,
+        "theta1_overshoot": 16.230051265594362,
+        "theta2_overshoot": 2.2159640942155003,
+        "peak_torque": 283.90498299464787,
+        "tracking_rms": 0.1705471258752972
+      }
+    },
+    {
+      "mode": "feedforward",
+      "runs": 400,
+      "settled": 400,
+      "pareto_points": 76,
+      "best": {
+        "rank": 1,
+        "kp": 5,
+        "kd": 5,
+        "score": 0,
+        "settling_time": 2.1875,
+        "steady_state_error": 4.630501559709169e-05,
+        "theta1_overshoot": 0.02110452053589671,
+        "theta2_overshoot": 0,
+        "peak_torque": 294.10250343171805,
+        "tracking_rms": 0.0024353262246219437
+      }
+    }
+  ]
+}

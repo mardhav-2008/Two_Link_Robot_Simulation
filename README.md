@@ -1,244 +1,256 @@
-2-Link Robot Simulation
+# Two-Link Robot Simulation
 
-A Python-based simulation of a 2-Degree-of-Freedom (2-DOF) planar robotic manipulator, implementing forward and inverse kinematics, Lagrangian dynamics, and feedback control.
+A Python simulation of a 2-degree-of-freedom (2-DOF) planar robotic arm moving
+under gravity. It implements forward and inverse kinematics, Lagrangian
+dynamics, PD and inverse-dynamics feedforward control, and quintic trajectory
+planning. It also runs controller-gain experiments with Pareto analysis.
 
-The project explores the mathematical modelling, simulation, and control of a two-link robotic arm, with an emphasis on understanding its physical behaviour and evaluating controller performance through numerical experiments.
+The project explores the mathematical modelling, simulation and control of a
+two-link arm. The focus is on its physical behaviour and on measuring
+controller performance through numerical experiments.
 
-Overview
+## Overview
 
-Two-link robotic manipulators are fundamental systems in robotics, providing a relatively simple yet powerful platform for studying robot kinematics, dynamics, and control.
+Two-link manipulators are a fundamental system in robotics: simple enough to
+model completely, but rich enough to show coupling between joints, gravity
+loading and the trade-offs of feedback control.
 
-This project implements a mathematical model of a planar robotic arm with two revolute joints. It uses forward and inverse kinematics to determine the end-effector position and joint configurations, while its dynamic model describes the relationship between joint torques, positions, velocities, and accelerations.
+This project models a planar arm with two revolute joints:
 
-A feedback controller is used to regulate joint motion and achieve desired configurations. Controller experiments are also conducted to investigate the effects of different control parameters on system performance.
+- **Kinematics** maps joint angles to the hand position and back.
+- **Dynamics** relates joint torques to positions, velocities and accelerations.
+- **Trajectory planning** turns a target into a smooth, time-parameterised
+  motion.
+- **Controllers** compute the joint torques that make the arm follow that
+  motion.
+- **Experiments** sweep controller gains and compare control strategies on
+  settling time, overshoot, torque and tracking accuracy.
 
-Features
+## Features
 
-- Forward Kinematics: Calculates the end-effector position from joint angles.
-- Inverse Kinematics: Determines the required joint angles for a desired end-effector position.
-- Reachability Verification: Checks whether a target position lies within the manipulator's reachable workspace.
-- Dynamic Modelling: Implements the equations of motion using Lagrangian mechanics.
-- Numerical Simulation: Simulates the manipulator's joint behaviour over time.
-- PD Control: Implements proportional-derivative feedback control.
-- Controller Experiments: Evaluates different controller parameter combinations.
-- Performance Metrics: Analyses controller performance using settling time, overshoot, torque requirements, and an overall performance score.
+- **Forward kinematics:** end-effector position from joint angles.
+- **Inverse kinematics:** joint angles for a target position, with a
+  workspace reachability check.
+- **Lagrangian dynamics:** `M(q)q̈ + C(q,q̇) + G(q) = τ`, with forward and
+  inverse dynamics.
+- **Control laws:**
+  - PD with gravity compensation.
+  - PD with inverse-dynamics feedforward.
+  - Joint errors wrapped to the shortest way round.
+- **Quintic trajectories:**
+  - Smooth moves that end at rest with zero acceleration.
+  - Duration sized from joint speed and acceleration limits.
+  - Continuous re-planning when the target changes mid-move.
+- **Stable integration:**
+  - Fixed 1 ms semi-implicit Euler sub-steps.
+  - Frame-time clamp.
+- **Actuator limits:** optional joint torque saturation.
+- **Interactive simulation:**
+  - Click to set a target.
+  - Slider panel for angles, gains and speed limit.
+  - Ghost reference arm and planned hand path.
+  - Live torque and tracking readouts.
+- **Controller experiments:**
+  - Two 400-run Kp/Kd sweeps, one per control law.
+  - Weighted ranking and Pareto frontier.
+  - Step vs trajectory vs feedforward comparison.
+  - Peak torque vs move duration.
+- **Project website** (`docs/`): interactive arm and exported experiment
+  results for GitHub Pages.
 
-Mathematical Foundation
+## Mathematical foundation
 
-1. Forward Kinematics
+### 1. Forward kinematics
 
-For a planar two-link manipulator, the end-effector position is calculated using:
+$$
+x = L_1\cos q_1 + L_2\cos(q_1+q_2), \qquad
+y = L_1\sin q_1 + L_2\sin(q_1+q_2)
+$$
 
-[
-x=L_1\cos(q_1)+L_2\cos(q_1+q_2)
-]
+where $L_1, L_2$ are the link lengths, $q_1$ is the angle of link 1 from the
+horizontal and $q_2$ is the angle of link 2 relative to link 1.
 
-[
-y=L_1\sin(q_1)+L_2\sin(q_1+q_2)
-]
+### 2. Inverse kinematics
 
-Where:
+A target is reachable only if $|L_1-L_2| \le \sqrt{x^2+y^2} \le L_1+L_2$. Then
 
-- (L_1,L_2): Link lengths
-- (q_1,q_2): Joint angles
-- (x,y): End-effector coordinates
+$$
+\cos q_2 = \frac{x^2+y^2-L_1^2-L_2^2}{2L_1L_2}, \qquad
+q_1 = \operatorname{atan2}(y,x) - \operatorname{atan2}\!\left(L_2\sin q_2,\; L_1+L_2\cos q_2\right)
+$$
 
-2. Inverse Kinematics
+The elbow-down solution ($q_2 \ge 0$) is used.
 
-The inverse kinematics problem determines the joint angles required to reach a specified Cartesian position.
+### 3. Lagrangian dynamics
 
-The second joint angle is calculated using:
+$$
+M(q)\,\ddot q + C(q,\dot q) + G(q) = \tau
+$$
 
-[
-\cos(q_2)=
-\frac{x^2+y^2-L_1^2-L_2^2}
-{2L_1L_2}
-]
+- $M(q)$: joint-space inertia (mass) matrix
+- $C(q,\dot q)$: Coriolis and centrifugal terms
+- $G(q)$: gravity torques
+- $\tau$: applied joint torques
 
-The first joint angle is obtained using:
+Accelerations come from solving $M\ddot q = \tau - C - G$ as a linear system,
+not from an explicit matrix inverse.
 
-[
-q_1=\operatorname{atan2}(y,x)-
-\operatorname{atan2}
-(L_2\sin(q_2),L_1+L_2\cos(q_2))
-]
+### 4. Control
 
-Unreachable target positions are identified before calculating a solution.
+PD with gravity compensation:
 
-3. Lagrangian Dynamics
+$$
+\tau = K_p\,\mathrm{wrap}(q_{ref}-q) + K_d(\dot q_{ref}-\dot q) + G(q)
+$$
 
-The manipulator's equations of motion are derived using Lagrangian mechanics.
+PD with inverse-dynamics feedforward:
 
-The general dynamic equation is:
+$$
+\tau = K_p\,\mathrm{wrap}(q_{ref}-q) + K_d(\dot q_{ref}-\dot q) + M(q)\ddot q_{ref} + C(q,\dot q) + G(q)
+$$
 
-[
-M(q)\ddot q+C(q,\dot q)+G(q)=\tau
-]
+$\mathrm{wrap}$ maps an angle to $[-\pi,\pi)$, so a joint never turns the
+long way round.
 
-Where:
+### 5. Quintic trajectories
 
-- (M(q)): Joint-space inertia matrix
-- (C(q,\dot q)): Coriolis and centrifugal terms
-- (G(q)): Gravitational torque vector
-- (\tau): Applied joint torque
-- (q,\dot q,\ddot q): Joint positions, velocities, and accelerations
+Each joint follows $q(s)=\sum_{k=0}^{5} a_k s^k$, which matches position,
+velocity and acceleration at both ends. The duration $T$ is the smallest value
+that keeps the peaks $\tfrac{15}{8}D/T$ (velocity) and $\tfrac{10}{\sqrt3}D/T^2$
+(acceleration) inside the joint limits. Following a smooth reference instead
+of a step target removes the $K_p \times$ step torque spike.
 
-Joint accelerations are obtained by solving:
+## Results
 
-[
-\ddot q=M(q)^{-1}
-[\tau-C(q,\dot q)-G(q)]
-]
+Experiment arm 2 m / 10 kg + 1 m / 5 kg, moving from horizontal to
+$[\pi/2, \pi/4]$, 6 s runs at 240 Hz:
 
-The implementation uses numerical linear-system solving rather than explicitly calculating the matrix inverse.
+| Kp = 100, Kd = 85 | Peak torque | Settling time | Tracking RMS |
+|---|---|---|---|
+| Step target + PD/gravity | 391.6 N·m | 4.18 s | 0.584 rad |
+| Trajectory + PD/gravity | 282.8 N·m | 4.65 s | 0.193 rad |
+| Trajectory + feedforward | 294.2 N·m | 2.19 s | 0.003 rad |
 
-4. PD Controller
+- The trajectory cuts peak torque by 28% and removes the jolt at the start of
+  each move.
+- Feedforward settles about twice as fast and follows the plan almost exactly.
+  All 400 gain pairs settle in about 2.19 s.
+- With PD + gravity, 37 of 400 gain pairs settle within 6 s, all with Kp and
+  Kd at or above about 65. The best is Kp = 100, Kd = 100: settles in 4.85 s
+  with 16% overshoot.
+- About 221 N·m of every peak is the static gravity load of the horizontal
+  arm, the minimum any controller needs.
 
-The proportional-derivative controller generates joint torques based on position and velocity errors.
+These are results for one test move on one arm, not a universal optimum.
 
-[
-\tau=K_p(q_d-q)+K_d(\dot q_d-\dot q)
-]
+## Project structure
 
-Where:
-
-- (K_p): Proportional gain
-- (K_d): Derivative gain
-- (q_d): Desired joint position
-- (q): Actual joint position
-
-The controller is evaluated using different gain combinations to investigate stability, tracking performance, and torque requirements.
-
-Controller Evaluation
-
-Controller experiments evaluate the effect of different proportional and derivative gains.
-
-The evaluation considers:
-
-Metric| Description
-Settling Time| Time taken for the system to settle near its target
-Overshoot| Amount by which the response exceeds the target
-Torque| Control effort required by the controller
-Performance Score| Combined metric used to compare controller configurations
-
-An example result from the controller experiments:
-
-Parameter| Value
-Proportional Gain ((K_p))| 100
-Derivative Gain ((K_d))| 85
-Performance Score| 0.4690
-Settling Time| 4.171 s
-Overshoot| 8.07%
-Torque| 391.61
-
-These values represent an experimental controller configuration, not a universal optimum.
-
-Project Structure
-
+```
 Two_Link_Robot_Simulation/
-│
-├── src/
-│   └── two_link_robot_simulation/
-│       ├── __init__.py
-│       ├── kinematics.py
-│       ├── dynamics.py
-│       ├── controller.py
-│       ├── robot.py
-│       ├── simulation.py
-│       ├── pygame_view.py
-│       └── tkinter_controls.py
-│
-├── data/
-│   ├── raw/
-│   ├── interim/
-│   └── processed/
-│       └── controller/
-│
-├── tests/
-│
+├── src/two_link_robot_simulation/
+│   ├── robot.py              links and robot model
+│   ├── kinematics.py         forward / inverse kinematics
+│   ├── dynamics.py           mass matrix, Coriolis, gravity, forward / inverse dynamics
+│   ├── controller.py         PD, PD + gravity, feedforward, angle wrapping
+│   ├── trajectory.py         quintic trajectory planning
+│   ├── integrator.py         sub-stepped integration, torque limits
+│   ├── simulation.py         interactive main loop
+│   ├── pygame_view.py        drawing
+│   ├── tkinter_controls.py   slider panel
+│   └── metrics.py            experiments, metrics, CSVs, plots
+├── tests/                    pytest suite
+├── data/processed/controller/
+│   ├── pd_gravity/           sweep results for PD + gravity
+│   ├── feedforward/          sweep results for feedforward
+│   └── *.csv, *.png          comparison, tracking and duration studies
+├── scripts/export_web_results.py   CSV results to JSON for the website
+├── docs/                     GitHub Pages site
 ├── pyproject.toml
-├── uv.lock
-└── README.md
+└── uv.lock
+```
 
-Technologies Used
+## Technologies
 
-- Python 3.14+ – Core programming language
-- NumPy – Numerical computations and matrix operations
-- Plotly – Data visualization
-- Pygame-CE – Interactive simulation visualization
-- Tkinter – Simulation controls
-- uv – Python dependency and project management
-- pytest – Testing
+- Python 3.14+
+- NumPy: numerical computation and linear algebra
+- Matplotlib: experiment plots
+- Pygame-CE: interactive simulation view
+- Tkinter: slider control panel
+- uv: dependency and project management
+- pytest: testing
+- HTML, CSS and JavaScript: project website
 
-Installation
+## Installation and usage
 
-Prerequisites
+Prerequisites: Python 3.14 or later and [uv](https://docs.astral.sh/uv/).
 
-- Python 3.14 or later
-- "uv" (https://docs.astral.sh/uv/)
-
-1. Clone the repository
-
-git clone <REPOSITORY_URL>
+```bash
+git clone https://github.com/mardhav-2008/Two_Link_Robot_Simulation.git
 cd Two_Link_Robot_Simulation
-
-2. Install dependencies
-
 uv sync
+```
 
-This creates the virtual environment and installs the project dependencies.
+Run the interactive simulation:
 
-3. Run the simulation
+```bash
+uv run robot-sim
+```
 
-uv run python -m two_link_robot_simulation.simulation
+| Input | Action |
+|---|---|
+| Click | Move the hand to the clicked point |
+| `TAB` | Switch between click mode and the slider panel |
+| `F` | Switch control law (PD + gravity or feedforward) |
+| `L` | Toggle actuator torque limits |
+| `G` | Toggle gravity |
+| `Q` / `ESC` | Quit |
 
-4. Run controller experiments
+Run the controller experiments. They write to `data/processed/controller/`,
+take about 1.5 minutes, and can run from any folder:
 
-uv run python -m two_link_robot_simulation.metrics
+```bash
+uv run robot-metrics
+```
 
-Experimental results are saved under:
+Export the results for the website:
 
-data/processed/controller/
+```bash
+uv run python scripts/export_web_results.py
+```
 
-Testing
+Run the tests:
 
-Run the test suite using:
-
+```bash
 uv run pytest
+```
 
-Objectives
-
-The primary objectives of this project are:
+## Objectives
 
 1. Develop a mathematical model of a planar two-link robotic manipulator.
 2. Implement forward and inverse kinematics.
-3. Derive and implement equations of motion using Lagrangian mechanics.
+3. Derive and implement the equations of motion using Lagrangian mechanics.
 4. Simulate the dynamic behaviour of the manipulator.
-5. Implement feedback control for joint-position regulation.
+5. Implement feedback and feedforward control for trajectory tracking.
 6. Evaluate controller performance under different parameter configurations.
-7. Develop an interactive environment for observing and analysing robot behaviour.
+7. Provide an interactive environment for observing and analysing robot
+   behaviour.
 
-Future Improvements
+## Future improvements
 
-Potential extensions to the project include:
-
-- Trajectory generation and tracking.
-- Computed-torque control.
-- Jacobian-based velocity kinematics.
-- Comparative analysis of different control strategies.
+- Computed-torque control (feedback linearisation).
+- Model uncertainty, friction and sensor noise.
+- Jacobian-based velocity kinematics and task-space trajectories.
 - Workspace and singularity analysis.
-- More extensive controller optimization.
-- Validation against an independent physics-based simulation.
+- Joint limits and elbow-up inverse kinematics.
+- Validation against an independent physics engine.
 
-Contributors
+## Contributors
 
 - Mardhav Rayapati
 - Jinadev RP
 - Hari Ramachandran
 - Pradeep S
 
----
-
-License
+## License
 
 To be determined.
