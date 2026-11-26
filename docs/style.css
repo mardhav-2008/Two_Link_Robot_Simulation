@@ -116,6 +116,35 @@ button {
     cursor: pointer;
 }
 
+button:focus-visible,
+.github:focus-visible,
+input[type="range"]:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.mode-switch {
+    display: inline-flex;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.mode-switch button {
+    background: var(--card);
+    color: var(--muted);
+    border-radius: 0;
+}
+
+.mode-switch button + button {
+    border-left: 1px solid var(--line);
+}
+
+.mode-switch button[aria-pressed="true"] {
+    background: var(--accent);
+    color: white;
+}
+
 .sim-layout {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -188,7 +217,7 @@ input[type="range"] {
 
 .stats {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 12px;
     margin: 20px 0;
 }
@@ -225,6 +254,11 @@ th {
     font-size: 0.82rem;
     color: var(--muted);
 }
+
+td {
+    font-variant-numeric: tabular-nums;
+}
+
 
 .two-column {
     display: grid;
@@ -268,7 +302,13 @@ footer {
     }
 
     .stats {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
     }
 
     .card {

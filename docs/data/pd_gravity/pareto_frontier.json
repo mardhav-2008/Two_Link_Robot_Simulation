@@ -1,0 +1,335 @@
+[
+  {
+    "kp": 65,
+    "kd": 65,
+    "settling_time": 5.345833333333333,
+    "steady_state_error": 0.01214534958586552,
+    "max_overshoot": 22.308169695512202,
+    "peak_torque": 275.3043142841676,
+    "tracking_rms": 0.2524529790761792
+  },
+  {
+    "kp": 65,
+    "kd": 70,
+    "settling_time": 5.433333333333333,
+    "steady_state_error": 0.007177239720025353,
+    "max_overshoot": 20.608139132302234,
+    "peak_torque": 276.05903080772055,
+    "tracking_rms": 0.23912840700190036
+  },
+  {
+    "kp": 70,
+    "kd": 70,
+    "settling_time": 5.245833333333333,
+    "steady_state_error": 0.012656920365581834,
+    "max_overshoot": 21.20293261074395,
+    "peak_torque": 276.8833479147226,
+    "tracking_rms": 0.23672786879488628
+  },
+  {
+    "kp": 70,
+    "kd": 75,
+    "settling_time": 5.333333333333333,
+    "steady_state_error": 0.006087621977331332,
+    "max_overshoot": 19.669967795124734,
+    "peak_torque": 277.5590153042374,
+    "tracking_rms": 0.22489696986038762
+  },
+  {
+    "kp": 70,
+    "kd": 80,
+    "settling_time": 5.429166666666666,
+    "steady_state_error": 0.00661556972933476,
+    "max_overshoot": 18.29279906804657,
+    "peak_torque": 278.21048553929324,
+    "tracking_rms": 0.21418674545646058
+  },
+  {
+    "kp": 75,
+    "kd": 70,
+    "settling_time": 5.083333333333333,
+    "steady_state_error": 0.02255288912025038,
+    "max_overshoot": 21.73794578832645,
+    "peak_torque": 277.6964328374869,
+    "tracking_rms": 0.2343751735729936
+  },
+  {
+    "kp": 75,
+    "kd": 75,
+    "settling_time": 5.158333333333333,
+    "steady_state_error": 0.012218413619759378,
+    "max_overshoot": 20.19452184798662,
+    "peak_torque": 278.322093382884,
+    "tracking_rms": 0.22269884558524008
+  },
+  {
+    "kp": 75,
+    "kd": 80,
+    "settling_time": 5.245833333333333,
+    "steady_state_error": 0.005411627247825042,
+    "max_overshoot": 18.805170048739363,
+    "peak_torque": 278.92820884201353,
+    "tracking_rms": 0.21213429931777855
+  },
+  {
+    "kp": 75,
+    "kd": 85,
+    "settling_time": 5.3374999999999995,
+    "steady_state_error": 0.004985327643167011,
+    "max_overshoot": 17.55072154554003,
+    "peak_torque": 279.5127961821868,
+    "tracking_rms": 0.2025254919205646
+  },
+  {
+    "kp": 75,
+    "kd": 90,
+    "settling_time": 5.4375,
+    "steady_state_error": 0.009328543058082206,
+    "max_overshoot": 16.414527877617743,
+    "peak_torque": 280.07485464652433,
+    "tracking_rms": 0.19374475870181557
+  },
+  {
+    "kp": 80,
+    "kd": 75,
+    "settling_time": 5.008333333333333,
+    "steady_state_error": 0.01979159303157487,
+    "max_overshoot": 20.668331199085674,
+    "peak_torque": 279.0761965414879,
+    "tracking_rms": 0.2205388847314694
+  },
+  {
+    "kp": 80,
+    "kd": 80,
+    "settling_time": 5.083333333333333,
+    "steady_state_error": 0.010999301116807329,
+    "max_overshoot": 19.270153867279134,
+    "peak_torque": 279.6373314800092,
+    "tracking_rms": 0.210109340689724
+  },
+  {
+    "kp": 80,
+    "kd": 85,
+    "settling_time": 5.166666666666666,
+    "steady_state_error": 0.004744013502820066,
+    "max_overshoot": 18.005472539399978,
+    "peak_torque": 280.1812145253546,
+    "tracking_rms": 0.20062761183094646
+  },
+  {
+    "kp": 80,
+    "kd": 90,
+    "settling_time": 5.258333333333333,
+    "steady_state_error": 0.0040008384511846995,
+    "max_overshoot": 16.858284137268836,
+    "peak_torque": 280.70701816116195,
+    "tracking_rms": 0.1919658669539301
+  },
+  {
+    "kp": 80,
+    "kd": 95,
+    "settling_time": 5.354166666666666,
+    "steady_state_error": 0.007755426413010394,
+    "max_overshoot": 15.81472466460083,
+    "peak_torque": 281.2135695679118,
+    "tracking_rms": 0.18401877579292644
+  },
+  {
+    "kp": 80,
+    "kd": 100,
+    "settling_time": 5.454166666666667,
+    "steady_state_error": 0.011731746387942218,
+    "max_overshoot": 14.862997277222595,
+    "peak_torque": 281.6996919861501,
+    "tracking_rms": 0.17669877048565547
+  },
+  {
+    "kp": 85,
+    "kd": 75,
+    "settling_time": 4.870833333333333,
+    "steady_state_error": 0.025793171729262467,
+    "max_overshoot": 21.095919513754904,
+    "peak_torque": 279.8201161004407,
+    "tracking_rms": 0.21841750489635828
+  },
+  {
+    "kp": 85,
+    "kd": 80,
+    "settling_time": 4.941666666666666,
+    "steady_state_error": 0.01681123367562538,
+    "max_overshoot": 19.69165038351597,
+    "peak_torque": 280.33837638096566,
+    "tracking_rms": 0.2081152284756433
+  },
+  {
+    "kp": 85,
+    "kd": 85,
+    "settling_time": 5.016666666666667,
+    "steady_state_error": 0.009426142266958563,
+    "max_overshoot": 18.419514830198917,
+    "peak_torque": 280.84269531701835,
+    "tracking_rms": 0.19875340134392053
+  },
+  {
+    "kp": 85,
+    "kd": 90,
+    "settling_time": 5.1,
+    "steady_state_error": 0.004007055513347643,
+    "max_overshoot": 17.263725073314518,
+    "peak_torque": 281.33189503259086,
+    "tracking_rms": 0.1902042061310353
+  },
+  {
+    "kp": 85,
+    "kd": 95,
+    "settling_time": 5.1875,
+    "steady_state_error": 0.0033830679965778996,
+    "max_overshoot": 16.2108800961504,
+    "peak_torque": 281.8044962794897,
+    "tracking_rms": 0.1823624642032286
+  },
+  {
+    "kp": 85,
+    "kd": 100,
+    "settling_time": 5.279166666666667,
+    "steady_state_error": 0.006747223390384744,
+    "max_overshoot": 15.249416035014399,
+    "peak_torque": 282.26047716939934,
+    "tracking_rms": 0.1751408528205308
+  },
+  {
+    "kp": 90,
+    "kd": 80,
+    "settling_time": 4.8125,
+    "steady_state_error": 0.02133656632147611,
+    "max_overshoot": 20.073371064396074,
+    "peak_torque": 281.03025893982795,
+    "tracking_rms": 0.20615167967079473
+  },
+  {
+    "kp": 90,
+    "kd": 85,
+    "settling_time": 4.883333333333333,
+    "steady_state_error": 0.013937956873829456,
+    "max_overshoot": 18.796001597389434,
+    "peak_torque": 281.4958648127124,
+    "tracking_rms": 0.19690466689222136
+  },
+  {
+    "kp": 90,
+    "kd": 90,
+    "settling_time": 4.958333333333333,
+    "steady_state_error": 0.0077779316105776545,
+    "max_overshoot": 17.633923925932013,
+    "peak_torque": 281.9492279094481,
+    "tracking_rms": 0.18846305569809782
+  },
+  {
+    "kp": 90,
+    "kd": 95,
+    "settling_time": 5.0375,
+    "steady_state_error": 0.003251281026503854,
+    "max_overshoot": 16.573927202087926,
+    "peak_torque": 282.38857170326327,
+    "tracking_rms": 0.1807220231934814
+  },
+  {
+    "kp": 90,
+    "kd": 100,
+    "settling_time": 5.120833333333333,
+    "steady_state_error": 0.0030136007491963473,
+    "max_overshoot": 15.604643084269526,
+    "peak_torque": 282.81492714501263,
+    "tracking_rms": 0.17359459953278109
+  },
+  {
+    "kp": 95,
+    "kd": 80,
+    "settling_time": 4.699999999999999,
+    "steady_state_error": 0.024589791617380768,
+    "max_overshoot": 20.4184587633365,
+    "peak_torque": 281.71304544278325,
+    "tracking_rms": 0.20421634392398608
+  },
+  {
+    "kp": 95,
+    "kd": 85,
+    "settling_time": 4.762499999999999,
+    "steady_state_error": 0.017409540858436972,
+    "max_overshoot": 19.137985367295077,
+    "peak_torque": 282.14078114652983,
+    "tracking_rms": 0.19508097570344857
+  },
+  {
+    "kp": 95,
+    "kd": 90,
+    "settling_time": 4.829166666666667,
+    "steady_state_error": 0.011330364782035474,
+    "max_overshoot": 17.97148848891125,
+    "peak_torque": 282.55906778880643,
+    "tracking_rms": 0.1867434415751888
+  },
+  {
+    "kp": 95,
+    "kd": 95,
+    "settling_time": 4.904166666666667,
+    "steady_state_error": 0.006209770279982528,
+    "max_overshoot": 16.90611156778871,
+    "peak_torque": 282.96638780717774,
+    "tracking_rms": 0.1790995586029068
+  },
+  {
+    "kp": 95,
+    "kd": 100,
+    "settling_time": 4.979166666666666,
+    "steady_state_error": 0.0025570692494113227,
+    "max_overshoot": 15.930880926160611,
+    "peak_torque": 283.36308234065467,
+    "tracking_rms": 0.17206288809621806
+  },
+  {
+    "kp": 100,
+    "kd": 80,
+    "settling_time": 4.595833333333333,
+    "steady_state_error": 0.02665554671516313,
+    "max_overshoot": 20.729696051790818,
+    "peak_torque": 282.3868018256135,
+    "tracking_rms": 0.20230598195138852
+  },
+  {
+    "kp": 100,
+    "kd": 85,
+    "settling_time": 4.654166666666667,
+    "steady_state_error": 0.019866519916855542,
+    "max_overshoot": 19.447896021521487,
+    "peak_torque": 282.77750215503903,
+    "tracking_rms": 0.19328065855083354
+  },
+  {
+    "kp": 100,
+    "kd": 90,
+    "settling_time": 4.716666666666667,
+    "steady_state_error": 0.01404604787804314,
+    "max_overshoot": 18.27881127136183,
+    "peak_torque": 283.16146541519214,
+    "tracking_rms": 0.18504497287666427
+  },
+  {
+    "kp": 100,
+    "kd": 95,
+    "settling_time": 4.783333333333333,
+    "steady_state_error": 0.00904891467090182,
+    "max_overshoot": 17.209839191945306,
+    "peak_torque": 283.5379525018205,
+    "tracking_rms": 0.1774956940689908
+  },
+  {
+    "kp": 100,
+    "kd": 100,
+    "settling_time": 4.854166666666666,
+    "steady_state_error": 0.004798767619696307,
+    "max_overshoot": 16.230051265594362,
+    "peak_torque": 283.90498299464787,
+    "tracking_rms": 0.1705471258752972
+  }
+]

@@ -14,8 +14,8 @@
             <p class="small-title">ROBOTICS PROJECT</p>
             <h1>Two Link Robot Simulation</h1>
             <p class="subtitle">
-                A small simulation project for studying robot dynamics,
-                kinematics and PID control.
+                A simulation project for studying robot kinematics, dynamics,
+                PD and feedforward control, and smooth trajectory planning.
             </p>
         </div>
         <a class="github" href="https://github.com/mardhav-2008/Two_Link_Robot_Simulation" target="_blank">
@@ -35,7 +35,9 @@
 
             <div class="tags">
                 <span>Python</span>
-                <span>PID Control</span>
+                <span>PD Control</span>
+                <span>Feedforward</span>
+                <span>Trajectory Planning</span>
                 <span>Kinematics</span>
                 <span>Dynamics</span>
                 <span>Simulation</span>
@@ -89,38 +91,94 @@
             </div>
         </section>
 
-        <section class="card">
-            <p class="small-title">RESULTS</p>
-            <h2>Controller Results</h2>
+        <section class="card" aria-labelledby="resultsHeading">
+            <div class="section-heading">
+                <div>
+                    <p class="small-title">RESULTS</p>
+                    <h2 id="resultsHeading">Controller Results</h2>
+                </div>
+                <div class="mode-switch" role="group" aria-label="Control law">
+                    <button type="button" data-mode="pd_gravity" aria-pressed="true">PD + gravity</button>
+                    <button type="button" data-mode="feedforward" aria-pressed="false">Feedforward</button>
+                </div>
+            </div>
+
+            <p id="modeNote" class="hint">
+                400 gain pairs (Kp, Kd from 5 to 100), each moving the arm from
+                horizontal to [90°, 45°] along a 2.5 s planned trajectory.
+            </p>
 
             <div class="stats">
                 <div class="stat">
-                    <span>Best Controller</span>
-                    <strong id="bestController">PID</strong>
+                    <span>Best gains</span>
+                    <strong id="bestController">--</strong>
                 </div>
                 <div class="stat">
-                    <span>Settling Time</span>
+                    <span>Settling time</span>
                     <strong id="settlingTime">--</strong>
                 </div>
                 <div class="stat">
-                    <span>Overshoot</span>
+                    <span>Max overshoot</span>
                     <strong id="overshoot">--</strong>
                 </div>
+                <div class="stat">
+                    <span>Peak torque</span>
+                    <strong id="peakTorque">--</strong>
+                </div>
+                <div class="stat">
+                    <span>Runs that settled</span>
+                    <strong id="settledRuns">--</strong>
+                </div>
             </div>
+
+            <p class="hint" id="rankingCaption">Top 10 settled controllers by weighted score (lower is better).</p>
+
+            <div class="table-wrap">
+                <table aria-describedby="rankingCaption">
+                    <thead>
+                        <tr>
+                            <th scope="col">Rank</th>
+                            <th scope="col">Kp</th>
+                            <th scope="col">Kd</th>
+                            <th scope="col">Settling time</th>
+                            <th scope="col">Max overshoot</th>
+                            <th scope="col">Peak torque</th>
+                            <th scope="col">Tracking RMS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultsTable">
+                        <tr>
+                            <td colspan="7">Loading results...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card" aria-labelledby="comparisonHeading">
+            <p class="small-title">COMPARISON</p>
+            <h2 id="comparisonHeading">Step target vs trajectory vs feedforward</h2>
+            <p>
+                The same move at three gain settings. A step target asks for the
+                whole move at once, so torque spikes with Kp. A planned trajectory
+                removes the spike; feedforward adds the torque the motion needs,
+                so the arm follows the plan almost exactly.
+            </p>
 
             <div class="table-wrap">
                 <table>
                     <thead>
                         <tr>
-                            <th>Controller</th>
-                            <th>Settling Time</th>
-                            <th>Overshoot</th>
-                            <th>Stability</th>
+                            <th scope="col">Kp, Kd</th>
+                            <th scope="col">Configuration</th>
+                            <th scope="col">Peak torque</th>
+                            <th scope="col">Settling time</th>
+                            <th scope="col">Tracking RMS</th>
                         </tr>
                     </thead>
-                    <tbody id="resultsTable">
+                    <tbody id="comparisonTable">
                         <tr>
-                            <td colspan="4">Loading results...</td>
+                            <td colspan="5">Loading comparison...</td>
                         </tr>
                     </tbody>
                 </table>
@@ -134,7 +192,8 @@
                 <ol>
                     <li>Model the two-link robot.</li>
                     <li>Calculate its kinematics and dynamics.</li>
-                    <li>Apply a controller to move the joints.</li>
+                    <li>Plan a smooth trajectory to the target.</li>
+                    <li>Apply a controller to follow the trajectory.</li>
                     <li>Measure the resulting behaviour.</li>
                     <li>Compare controller configurations.</li>
                 </ol>
@@ -145,12 +204,14 @@
                 <h2>Python side</h2>
                 <pre><code>src/
 └── two_link_robot_simulation/
-    ├── controller.py
-    ├── dynamics.py
-    ├── kinematics.py
-    ├── metrics.py
-    ├── robot.py
-    └── simulation.py</code></pre>
+    ├── robot.py         robot model
+    ├── kinematics.py    angles and hand position
+    ├── dynamics.py      equations of motion
+    ├── trajectory.py    quintic motion planning
+    ├── controller.py    PD and feedforward
+    ├── integrator.py    time stepping
+    ├── simulation.py    interactive view
+    └── metrics.py       experiments</code></pre>
             </div>
         </section>
 
@@ -158,11 +219,13 @@
             <p class="small-title">OPTIMIZATION</p>
             <h2>Pareto Frontier</h2>
             <p>
-                The Python project also evaluates controller configurations
-                and stores the Pareto-optimal results. The chart below is
-                drawn from the exported data.
+                A controller is Pareto-optimal when no other controller is at
+                least as good on every metric (settling time, steady-state
+                error, overshoot, peak torque, tracking) and better on one.
+                Each point is one such controller for the selected control law.
             </p>
-            <canvas id="paretoCanvas" width="800" height="350"></canvas>
+            <canvas id="paretoCanvas" width="800" height="350"
+                role="img" aria-label="Pareto frontier: settling time against maximum overshoot"></canvas>
         </section>
     </main>
 
