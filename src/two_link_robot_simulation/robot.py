@@ -1,5 +1,7 @@
 class Link:
     def __init__(self, length: float = 1, angle: float = 0, mass: float = 5) -> None:
+        if length < 0 or mass < 0:
+            raise ValueError("Link length and mass cannot be negative")
         self.length = length
         self.angle = angle
         self.mass = mass

@@ -107,6 +107,21 @@ def replan_if_needed(
 
 def simulation():
 
+    while True:
+        try:
+            link_length_1 = int(input("Enter length of Link 1: "))
+            link_length_2 = int(input("Enter length of Link 2: "))
+
+            link1 = Link(length=link_length_1)
+            link2 = Link(length=link_length_2)
+
+        except ValueError as e:
+            print(f"Invalid Input: {e}")
+            print("Pease try again")
+
+        else:
+            break
+
     pygame.init()
     initialize()
 
@@ -115,8 +130,6 @@ def simulation():
     panel = ControlPanel()
     panel.hide()
 
-    link1 = Link()
-    link2 = Link()
     robot = Robot([link1, link2])
 
     controller = PDController(KP, KD)
