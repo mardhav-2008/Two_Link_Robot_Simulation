@@ -1,0 +1,4002 @@
+[
+  {
+    "kp": 5,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.2410736785952137,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.42857223596378363,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.5917316590194872,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.7243001732803788,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.8324225692037811,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.9215361947110199,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.9958451715620353,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 1.0585233148626638,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 1.1119639962159633,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 1.1579842104515943,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 1.1979767047464296,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 1.2330203893516516,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 1.263960067415869,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 1.2914642169096855,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 1.3160671703198679,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 1.3382001757081992,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 1.358214484372255,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 1.376398674942873,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 1.3929917750792151,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 5,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 1.4081932917047888,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 230.342932659708,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.6854281700593856,
+    "theta1_overshoot": 50.76003778791511,
+    "theta2_overshoot": 0.8571444614059365,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.38883646001857647,
+    "theta1_overshoot": 30.48941625025241,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.16344917027919117,
+    "theta1_overshoot": 14.554672190690676,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.10539563909611506,
+    "theta1_overshoot": 1.9371523152332413,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.23150383788288056,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.358669542767683,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.46842764902324396,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.5627526461500368,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.6443418768212559,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.7154831081894208,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.7780074151107925,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.8333673478661623,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.8827188048761653,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.9269880518219343,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.9669234958829611,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 1.0031350486199808,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 1.0361239905249926,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 1.066305708781814,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 1.0940271131645871,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 10,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 1.1195800715441175,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 238.63977994315317,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 1.134754892843229,
+    "theta1_overshoot": 75.63375206754728,
+    "theta2_overshoot": 14.976177934371451,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.8120666577493735,
+    "theta1_overshoot": 54.73065727602828,
+    "theta2_overshoot": 9.170592107938228,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.5551638997717163,
+    "theta1_overshoot": 38.22511512245298,
+    "theta2_overshoot": 4.9090869105951205,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.34786338992501875,
+    "theta1_overshoot": 24.94006725218028,
+    "theta2_overshoot": 1.0319727505664704,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.18230657674804931,
+    "theta1_overshoot": 14.07854197207104,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.08275212127905095,
+    "theta1_overshoot": 5.059577811320663,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.13108132392642566,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.2265294572766397,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.3162748993655121,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.3967993216753972,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.4688368013954866,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.5335123269598424,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.5918619962484565,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.6447665757566649,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.6929607664384158,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.7370560635215664,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.7775632010509715,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.8149111583669393,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.8494625358098205,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 15,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.881525806668301,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 246.97010969978814,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 1.2670064564672956,
+    "theta1_overshoot": 80.72948605782155,
+    "theta2_overshoot": 19.044955042987645,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.9699653772112,
+    "theta1_overshoot": 61.751535327134164,
+    "theta2_overshoot": 13.682838967208536,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.7331224775624068,
+    "theta1_overshoot": 46.69622008645553,
+    "theta2_overshoot": 9.568628033050947,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.5396422582587713,
+    "theta1_overshoot": 34.629887808291585,
+    "theta2_overshoot": 6.131947385438019,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.3787504185653302,
+    "theta1_overshoot": 24.892440576841203,
+    "theta2_overshoot": 2.9519203415941044,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.24380675301403165,
+    "theta1_overshoot": 16.691245297041455,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.13344679990034258,
+    "theta1_overshoot": 9.629399719882603,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.07091576063121502,
+    "theta1_overshoot": 3.469207173176942,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.10761919980261393,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.17894003851184836,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.24926877249592452,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.3145807109661334,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.3747006835126552,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.430041012893326,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.4810940251025626,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.5283231486610221,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.5721398774460617,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.6129031605954444,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.6509247500737655,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 20,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.6864756333065822,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 255.33064478769725,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 1.171290282407171,
+    "theta1_overshoot": 83.01537589903128,
+    "theta2_overshoot": 19.701008598714523,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.9359733365176314,
+    "theta1_overshoot": 65.39115358425985,
+    "theta2_overshoot": 14.69208365259137,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.7466416677185673,
+    "theta1_overshoot": 51.103984080190024,
+    "theta2_overshoot": 10.809481828748515,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.5896488942834434,
+    "theta1_overshoot": 39.40313245780672,
+    "theta2_overshoot": 7.753211577726182,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.45631492951225894,
+    "theta1_overshoot": 29.786508773269016,
+    "theta2_overshoot": 5.2160888594682335,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.3410740001157321,
+    "theta1_overshoot": 21.892262365009774,
+    "theta2_overshoot": 2.95944096658902,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.24047456625567878,
+    "theta1_overshoot": 15.451717541646538,
+    "theta2_overshoot": 0.6427610041722803,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.15321039376263995,
+    "theta1_overshoot": 10.199760272494633,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.08384945029331604,
+    "theta1_overshoot": 5.5203227200295775,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.06354357579913382,
+    "theta1_overshoot": 1.2436738519830461,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.1055573563398058,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.16184925907110845,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.21758018498951806,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.2704990433375483,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.32029030832202243,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.36705031281967265,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.41097769885921914,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.45228970440200605,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.491196162725997,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 25,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.5278914495490128,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 263.718512469345,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.9317868848853983,
+    "theta1_overshoot": 84.7414789158517,
+    "theta2_overshoot": 20.19747705263301,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.7758109483336388,
+    "theta1_overshoot": 68.1953954444477,
+    "theta2_overshoot": 15.477955692269784,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.6488861439113075,
+    "theta1_overshoot": 54.56281975508153,
+    "theta2_overshoot": 11.72980505207725,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.5406923830574976,
+    "theta1_overshoot": 43.22097668057972,
+    "theta2_overshoot": 8.74604073607189,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.44544398078142355,
+    "theta1_overshoot": 33.743349343628275,
+    "theta2_overshoot": 6.26982381696822,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.3598170014608692,
+    "theta1_overshoot": 25.82024358970758,
+    "theta2_overshoot": 4.14035329742001,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.2818552809527675,
+    "theta1_overshoot": 19.216318054113547,
+    "theta2_overshoot": 2.3216765536329134,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.21050662097889294,
+    "theta1_overshoot": 13.753004848312738,
+    "theta2_overshoot": 0.6728951516198886,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.1456540643587308,
+    "theta1_overshoot": 9.299395826857078,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.08946337983106817,
+    "theta1_overshoot": 5.72326789898512,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.054862407560766074,
+    "theta1_overshoot": 2.4669908826690703,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.06893281234646834,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.11036098698759196,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.15612284683276947,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.20130470957938984,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.24484117791870014,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.28647694132713303,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.3261885220704092,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.36403218647959223,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 30,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.4000934162471796,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 272.1311853484528,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.6178467988334724,
+    "theta1_overshoot": 86.10614365083703,
+    "theta2_overshoot": 20.5914285228367,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.5441701971405547,
+    "theta1_overshoot": 70.44750071285267,
+    "theta2_overshoot": 16.11360522285285,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.4837542383036799,
+    "theta1_overshoot": 57.379358937617354,
+    "theta2_overshoot": 12.488587865502243,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.4287646308591778,
+    "theta1_overshoot": 46.374121491398945,
+    "theta2_overshoot": 9.56740200162973,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.3758371581394873,
+    "theta1_overshoot": 37.06088352503146,
+    "theta2_overshoot": 7.141580253084336,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.3238687505335906,
+    "theta1_overshoot": 29.169028104215023,
+    "theta2_overshoot": 5.049090302295945,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.2726756282249244,
+    "theta1_overshoot": 22.49055525505249,
+    "theta2_overshoot": 3.2245845228521994,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.22245521337716367,
+    "theta1_overshoot": 16.86322314393546,
+    "theta2_overshoot": 1.6784773650871567,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.1736249057090929,
+    "theta1_overshoot": 12.1630325248737,
+    "theta2_overshoot": 0.4233493531534906,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.12693355477850926,
+    "theta1_overshoot": 8.29879972309471,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.08423151088373064,
+    "theta1_overshoot": 5.208731089213988,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.052464206312267496,
+    "theta1_overshoot": 2.721127957445623,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.05159002559784915,
+    "theta1_overshoot": 0.31764510390439826,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.08004381892247323,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.11673985204858568,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.1546863857029604,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.1921820645628984,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.22869748157645856,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.2640427225602226,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 35,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.2981539762680263,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 280.56643211195245,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.29924946737919084,
+    "theta1_overshoot": 87.22075884681473,
+    "theta2_overshoot": 20.91538712560918,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.28666080430956115,
+    "theta1_overshoot": 72.31108444031624,
+    "theta2_overshoot": 16.642247789387934,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.2861515183878358,
+    "theta1_overshoot": 59.73562523617157,
+    "theta2_overshoot": 13.130083219021527,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.2824230897131603,
+    "theta1_overshoot": 49.041329641600164,
+    "theta2_overshoot": 10.265987216537791,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.27140987856769183,
+    "theta1_overshoot": 39.89995007173395,
+    "theta2_overshoot": 7.882181298307918,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.25340169861247414,
+    "theta1_overshoot": 32.07112565761444,
+    "theta2_overshoot": 5.825884883873311,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.2297397926684629,
+    "theta1_overshoot": 25.368782113199494,
+    "theta2_overshoot": 4.015929367413838,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.20187076730830636,
+    "theta1_overshoot": 19.64559707337693,
+    "theta2_overshoot": 2.438716846185308,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.17110911559012085,
+    "theta1_overshoot": 14.785638804004266,
+    "theta2_overshoot": 1.1248442334843747,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.13863990426923353,
+    "theta1_overshoot": 10.700028929451264,
+    "theta2_overshoot": 0.12411643321750192,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.10568261290895024,
+    "theta1_overshoot": 7.323781324721292,
+    "theta2_overshoot": 0,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.0740557272503434,
+    "theta1_overshoot": 4.61362662011688,
+    "theta2_overshoot": 0,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.04853903217576884,
+    "theta1_overshoot": 2.53994916859774,
+    "theta2_overshoot": 0,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.04274102719462528,
+    "theta1_overshoot": 0.6824822014110985,
+    "theta2_overshoot": 0,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.06190993531106391,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.09107090816721539,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.1227304360979064,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.15481060447846834,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.18660616656278206,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 40,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.21781784867036505,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 289.0222762793117,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.21942840149484322,
+    "theta1_overshoot": 88.15408626133599,
+    "theta2_overshoot": 21.18914145980578,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.14933953976861664,
+    "theta1_overshoot": 73.88811397152251,
+    "theta2_overshoot": 17.091444546396065,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.1218330410791495,
+    "theta1_overshoot": 61.74798329670802,
+    "theta2_overshoot": 13.682898480137453,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.12844654727219323,
+    "theta1_overshoot": 51.339608128694,
+    "theta2_overshoot": 10.872272992116187,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.15091300045331427,
+    "theta1_overshoot": 42.36936630528215,
+    "theta2_overshoot": 8.524564333641846,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.16431674218214937,
+    "theta1_overshoot": 34.62047872609414,
+    "theta2_overshoot": 6.500694255331182,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.16673257067002037,
+    "theta1_overshoot": 27.92500446268616,
+    "theta2_overshoot": 4.712222863766196,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.16043785693848883,
+    "theta1_overshoot": 22.148486412300823,
+    "theta2_overshoot": 3.129235572710961,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.1475502887818402,
+    "theta1_overshoot": 17.183023969487056,
+    "theta2_overshoot": 1.7639795169236145,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.12983850365198613,
+    "theta1_overshoot": 12.943639225096693,
+    "theta2_overshoot": 0.6555741599469913,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.1087962121322727,
+    "theta1_overshoot": 9.365242527633734,
+    "theta2_overshoot": 0,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.0858258281880834,
+    "theta1_overshoot": 6.400887725154602,
+    "theta2_overshoot": 0,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.06270363936839153,
+    "theta1_overshoot": 4.020211110715914,
+    "theta2_overshoot": 0,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.043223892687760154,
+    "theta1_overshoot": 2.207619114177838,
+    "theta2_overshoot": 0,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.03715746894115628,
+    "theta1_overshoot": 0.7548293738294216,
+    "theta2_overshoot": 0,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.05063891736555767,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.07394482923923326,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.10038257419138791,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.12780697648872066,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 45,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.15543750384298444,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 297.49696151740056,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.43022598563358977,
+    "theta1_overshoot": 88.95068888314475,
+    "theta2_overshoot": 21.425525621170603,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.26610023586762954,
+    "theta1_overshoot": 75.24670571974205,
+    "theta2_overshoot": 17.47941362461506,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.15146217127961195,
+    "theta1_overshoot": 63.494705411042105,
+    "theta2_overshoot": 14.166249457291332,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.08673943671312685,
+    "theta1_overshoot": 53.349722348356934,
+    "theta2_overshoot": 11.406504301111966,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.06419464027323316,
+    "theta1_overshoot": 44.54564748196962,
+    "theta2_overshoot": 9.09092368546773,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.07220721340107475,
+    "theta1_overshoot": 36.88559319351494,
+    "theta2_overshoot": 7.095475670149863,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.09434734665499518,
+    "theta1_overshoot": 30.21623717884918,
+    "theta2_overshoot": 5.329888546412119,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.10750070447928183,
+    "theta1_overshoot": 24.41423508475985,
+    "theta2_overshoot": 3.7532968611856274,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.11108673886909655,
+    "theta1_overshoot": 19.379249314507554,
+    "theta2_overshoot": 2.364430916459133,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.10731125913617122,
+    "theta1_overshoot": 15.030641251944402,
+    "theta2_overshoot": 1.187927052480011,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.09800762630685397,
+    "theta1_overshoot": 11.304712274679455,
+    "theta2_overshoot": 0.2668798351442593,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.0847063916512249,
+    "theta1_overshoot": 8.153312057821063,
+    "theta2_overshoot": 0,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.06881608038087343,
+    "theta1_overshoot": 5.542337113271884,
+    "theta2_overshoot": 0,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.052027966898022714,
+    "theta1_overshoot": 3.450651990484522,
+    "theta2_overshoot": 0,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.03758391592904186,
+    "theta1_overshoot": 1.8683398917458567,
+    "theta2_overshoot": 0,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.03292741643251155,
+    "theta1_overshoot": 0.6903554840174101,
+    "theta2_overshoot": 0,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.04323617302870962,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.06218448980926071,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.08440379075432475,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 50,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.10792269164821305,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 305.98892236037517,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.696374913380279,
+    "theta1_overshoot": 89.64086080580316,
+    "theta2_overshoot": 21.633206708333205,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.4770393881046368,
+    "theta1_overshoot": 76.433672983874,
+    "theta2_overshoot": 17.819422105029016,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.3106474524005894,
+    "theta1_overshoot": 65.03127116319966,
+    "theta2_overshoot": 14.594001417465835,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.18617482672477945,
+    "theta1_overshoot": 55.129035390868495,
+    "theta2_overshoot": 11.882899420400985,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.09799165965597718,
+    "theta1_overshoot": 46.4847454367399,
+    "theta2_overshoot": 9.596844149826,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.05117179868780285,
+    "theta1_overshoot": 38.917497586769244,
+    "theta2_overshoot": 7.62624642809466,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.039185233742421235,
+    "theta1_overshoot": 32.28657549890486,
+    "theta2_overshoot": 5.882718689999513,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.05084116833547589,
+    "theta1_overshoot": 26.47800154424852,
+    "theta2_overshoot": 4.318194498942775,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.06817006211014669,
+    "theta1_overshoot": 21.398303519079022,
+    "theta2_overshoot": 2.9212329775622234,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.07676721322664191,
+    "theta1_overshoot": 16.97128792399218,
+    "theta2_overshoot": 1.7056418629160366,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.07816746833298338,
+    "theta1_overshoot": 13.135340611928289,
+    "theta2_overshoot": 0.7020067572372933,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.07405981103275219,
+    "theta1_overshoot": 9.842410983702178,
+    "theta2_overshoot": 0,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.06586771767006855,
+    "theta1_overshoot": 7.0565509806351345,
+    "theta2_overshoot": 0,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.05491186548918587,
+    "theta1_overshoot": 4.7530588709264,
+    "theta2_overshoot": 0,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.042773162566171495,
+    "theta1_overshoot": 2.9175121513700777,
+    "theta2_overshoot": 0,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.03233079373970464,
+    "theta1_overshoot": 1.5439050794768823,
+    "theta2_overshoot": 0,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.029482752661831743,
+    "theta1_overshoot": 0.5705821402109157,
+    "theta2_overshoot": 0,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.0380882022032554,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.05384863412122766,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 55,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.07270880170796433,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 314.4967593969907,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.9180190559354086,
+    "theta1_overshoot": 90.24682269426847,
+    "theta2_overshoot": 21.818650309753806,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.6583472918409312,
+    "theta1_overshoot": 77.48321612156302,
+    "theta2_overshoot": 18.12053614832178,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.4602202907280567,
+    "theta1_overshoot": 66.3977049208904,
+    "theta2_overshoot": 14.97629592938424,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.30982417885423824,
+    "theta1_overshoot": 56.71981486630984,
+    "theta2_overshoot": 12.311859910495887,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.19663626433839898,
+    "theta1_overshoot": 48.228186454393374,
+    "theta2_overshoot": 10.053403525760258,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.11259258943565857,
+    "theta1_overshoot": 40.755165363118266,
+    "theta2_overshoot": 8.104938445192863,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.05444145896276568,
+    "theta1_overshoot": 34.170401724962396,
+    "theta2_overshoot": 6.3817657084375785,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.02880620118535279,
+    "theta1_overshoot": 28.3684549333997,
+    "theta2_overshoot": 4.831650731019536,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.028544019511580077,
+    "theta1_overshoot": 23.26187812663239,
+    "theta2_overshoot": 3.4354220198131715,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.0427462108209665,
+    "theta1_overshoot": 18.7785109462832,
+    "theta2_overshoot": 2.1984006459695467,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.05332127058617518,
+    "theta1_overshoot": 14.859370312566995,
+    "theta2_overshoot": 1.1421020302494227,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.057364196661054176,
+    "theta1_overshoot": 11.457158110871555,
+    "theta2_overshoot": 0.30049116720370705,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.05630870820251458,
+    "theta1_overshoot": 8.535260380618132,
+    "theta2_overshoot": 0,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.0514075763317005,
+    "theta1_overshoot": 6.066831799860125,
+    "theta2_overshoot": 0,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.04385423399096567,
+    "theta1_overshoot": 4.034177643386256,
+    "theta2_overshoot": 0,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.03511461721282059,
+    "theta1_overshoot": 2.427790533131203,
+    "theta2_overshoot": 0,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.0278000200319626,
+    "theta1_overshoot": 1.2441886046932051,
+    "theta2_overshoot": 0,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.02666147828179796,
+    "theta1_overshoot": 0.4365356993852879,
+    "theta2_overshoot": 0,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.03433359064088538,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 60,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.04774976873846876,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 323.01921816498884,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 1.0836629945057803,
+    "theta1_overshoot": 90.78394067324881,
+    "theta2_overshoot": 21.986420366490425,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.7971867316175821,
+    "theta1_overshoot": 78.42030174782631,
+    "theta2_overshoot": 18.38974179347563,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.5779214421440643,
+    "theta1_overshoot": 67.62385267487542,
+    "theta2_overshoot": 15.320817437063452,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.4102802846285224,
+    "theta1_overshoot": 58.15460241512017,
+    "theta2_overshoot": 12.701124642630868,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.28246395771618915,
+    "theta1_overshoot": 49.80801887917977,
+    "theta2_overshoot": 10.468973982416548,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.18555201090865125,
+    "theta1_overshoot": 42.42868335840204,
+    "theta2_overshoot": 8.540531390545869,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.11274891343293575,
+    "theta1_overshoot": 35.895257011842205,
+    "theta2_overshoot": 6.835896390900544,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.05895763140346535,
+    "theta1_overshoot": 30.109150986368437,
+    "theta2_overshoot": 5.300731332465496,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.026439479820891603,
+    "theta1_overshoot": 24.9886012636475,
+    "theta2_overshoot": 3.9101891630891568,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.01850227719596509,
+    "theta1_overshoot": 20.465249452726418,
+    "theta2_overshoot": 2.662771551927914,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.026869470875970032,
+    "theta1_overshoot": 16.482730995631385,
+    "theta2_overshoot": 1.5729302217110714,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.03752334922456546,
+    "theta1_overshoot": 12.994898519540518,
+    "theta2_overshoot": 0.666304984580076,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.04264469282265922,
+    "theta1_overshoot": 9.965190100864325,
+    "theta2_overshoot": 0,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.043257011524092816,
+    "theta1_overshoot": 7.365628452657474,
+    "theta2_overshoot": 0,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.04042461620147957,
+    "theta1_overshoot": 5.176275763491058,
+    "theta2_overshoot": 0,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.035207000694486824,
+    "theta1_overshoot": 3.3847715424329983,
+    "theta2_overshoot": 0,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.02896436303869687,
+    "theta1_overshoot": 1.9851413618306755,
+    "theta2_overshoot": 0,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.02408753676762674,
+    "theta1_overshoot": 0.9752199332881273,
+    "theta2_overshoot": 0,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.024387612374266527,
+    "theta1_overshoot": 0.30752127624507253,
+    "theta2_overshoot": 0,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 65,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.031496751929549635,
+    "theta1_overshoot": 0,
+    "theta2_overshoot": 0,
+    "peak_torque": 331.5551711335531,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 1.1905458338582848,
+    "theta1_overshoot": 91.26497990796581,
+    "theta2_overshoot": 22.13928540395062,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.890848709271791,
+    "theta1_overshoot": 79.26361773808972,
+    "theta2_overshoot": 18.632450196749694,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.6609626786420278,
+    "theta1_overshoot": 68.73289723109863,
+    "theta2_overshoot": 15.633613916395413,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.4843391438375805,
+    "theta1_overshoot": 59.45760995367358,
+    "theta2_overshoot": 13.056785501187415,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.34848409199995073,
+    "theta1_overshoot": 51.24934262538006,
+    "theta2_overshoot": 10.84993990443916,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.24408831761792282,
+    "theta1_overshoot": 43.96233905015054,
+    "theta2_overshoot": 8.939863913716195,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.16416627597709102,
+    "theta1_overshoot": 37.48322839656532,
+    "theta2_overshoot": 7.2520043129278635,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.10342690663523747,
+    "theta1_overshoot": 31.71958199984561,
+    "theta2_overshoot": 5.73153004589957,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.05785028582966085,
+    "theta1_overshoot": 26.594486634320248,
+    "theta2_overshoot": 4.349365008497736,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.025818984833463565,
+    "theta1_overshoot": 22.04354814167721,
+    "theta2_overshoot": 3.0985520679932255,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.013823623760425905,
+    "theta1_overshoot": 18.01262779372857,
+    "theta2_overshoot": 1.9878054369615525,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.017634715075648098,
+    "theta1_overshoot": 14.45712040085784,
+    "theta2_overshoot": 1.036541836750199,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.02699472771105473,
+    "theta1_overshoot": 11.340789901637088,
+    "theta2_overshoot": 0.27321335334667796,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.032273713991558026,
+    "theta1_overshoot": 8.635156457104927,
+    "theta2_overshoot": 0,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.03369028711948572,
+    "theta1_overshoot": 6.318967507038066,
+    "theta2_overshoot": 0,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.03212566560375607,
+    "theta1_overshoot": 4.3776735793007555,
+    "theta2_overshoot": 0,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.028516341533865154,
+    "theta1_overshoot": 2.802900889478037,
+    "theta2_overshoot": 0,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.024131971633478803,
+    "theta1_overshoot": 1.5911562575948235,
+    "theta2_overshoot": 0,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.02115920958562246,
+    "theta1_overshoot": 0.7404388343106567,
+    "theta2_overshoot": 0,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 70,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.022588275411098178,
+    "theta1_overshoot": 0.19148687785390442,
+    "theta2_overshoot": 0,
+    "peak_torque": 340.1036022679644,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 1.2395828261823116,
+    "theta1_overshoot": 91.6985405565251,
+    "theta2_overshoot": 22.280484541272845,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.9396299240752594,
+    "theta1_overshoot": 80.02880805923417,
+    "theta2_overshoot": 18.853004679292866,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.7091407945453482,
+    "theta1_overshoot": 69.74264323943376,
+    "theta2_overshoot": 15.919364019171542,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.531367885737287,
+    "theta1_overshoot": 60.64885101492855,
+    "theta2_overshoot": 13.383599362820103,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.39368003898536463,
+    "theta1_overshoot": 52.57173202434847,
+    "theta2_overshoot": 11.201241909531873,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.2867724952479596,
+    "theta1_overshoot": 45.37514305187833,
+    "theta2_overshoot": 9.30827219768885,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.20375671527454908,
+    "theta1_overshoot": 38.95200171468323,
+    "theta2_overshoot": 7.635713108807869,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.13947513499145553,
+    "theta1_overshoot": 33.21560635966298,
+    "theta2_overshoot": 6.129194594080014,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.0900227696321169,
+    "theta1_overshoot": 28.093391779694198,
+    "theta2_overshoot": 4.756737612276022,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.05242214495227315,
+    "theta1_overshoot": 23.524331028401726,
+    "theta2_overshoot": 3.5069938825491453,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.024638159739609203,
+    "theta1_overshoot": 19.456553647128334,
+    "theta2_overshoot": 2.3838689743264307,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.011283402851936393,
+    "theta1_overshoot": 15.84715427290305,
+    "theta2_overshoot": 1.401871360524746,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.012423584728492868,
+    "theta1_overshoot": 12.660436628275487,
+    "theta2_overshoot": 0.583399569449878,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.020035895829794436,
+    "theta1_overshoot": 9.867896510692695,
+    "theta2_overshoot": 0,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.024967536825396115,
+    "theta1_overshoot": 7.447488252633281,
+    "theta2_overshoot": 0,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.02667216385572134,
+    "theta1_overshoot": 5.383132772951045,
+    "theta2_overshoot": 0,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.025864500057291195,
+    "theta1_overshoot": 3.6644964330040075,
+    "theta2_overshoot": 0,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.02337702326807097,
+    "theta1_overshoot": 2.2861499052273246,
+    "theta2_overshoot": 0,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.020403332995564478,
+    "theta1_overshoot": 1.2461311334298015,
+    "theta2_overshoot": 0,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 75,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.01891893414903983,
+    "theta1_overshoot": 0.5414531121590082,
+    "theta2_overshoot": 0,
+    "peak_torque": 348.66359376146346,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 1.2342548909760227,
+    "theta1_overshoot": 92.09192824169395,
+    "theta2_overshoot": 22.411621589146478,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.9458586120760366,
+    "theta1_overshoot": 80.7267471520381,
+    "theta2_overshoot": 19.05441070983147,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.7239113260347703,
+    "theta1_overshoot": 70.66781191589845,
+    "theta2_overshoot": 16.1818833379517,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.5521391342265732,
+    "theta1_overshoot": 61.743749316632446,
+    "theta2_overshoot": 13.685418487405284,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.4182806958930125,
+    "theta1_overshoot": 53.79161159915675,
+    "theta2_overshoot": 11.52676900137041,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.3134004065870974,
+    "theta1_overshoot": 46.682734570134684,
+    "theta2_overshoot": 9.649985737248832,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.23096620500756318,
+    "theta1_overshoot": 40.31649854791065,
+    "theta2_overshoot": 7.991437492504881,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.16614489039813338,
+    "theta1_overshoot": 34.610694766332244,
+    "theta2_overshoot": 6.498035988997897,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.11530920504959537,
+    "theta1_overshoot": 29.496881874615156,
+    "theta2_overshoot": 5.135818410810505,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.07570034070039346,
+    "theta1_overshoot": 24.91701592873873,
+    "theta2_overshoot": 3.8899389937055084,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.04520096804601275,
+    "theta1_overshoot": 20.821634238084574,
+    "theta2_overshoot": 2.7603206115740884,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.022265487717583635,
+    "theta1_overshoot": 17.169093968909497,
+    "theta2_overshoot": 1.7573344444823102,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 65,
+    "settling_time": 4.420833333333333,
+    "steady_state_error": 0.009511048933988868,
+    "theta1_overshoot": 13.92481685715527,
+    "theta2_overshoot": 0.8988320052614974,
+    "peak_torque": 357.2343145925919,
+    "stable": true
+  },
+  {
+    "kp": 80,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.009382326290751456,
+    "theta1_overshoot": 11.060324738613307,
+    "theta2_overshoot": 0.20966864794922058,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 75,
+    "settling_time": null,
+    "steady_state_error": 0.015455348178004947,
+    "theta1_overshoot": 8.553222244808557,
+    "theta2_overshoot": 0,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.019800166019498404,
+    "theta1_overshoot": 6.38640434264825,
+    "theta2_overshoot": 0,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.02150297056415705,
+    "theta1_overshoot": 4.548008763772826,
+    "theta2_overshoot": 0,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.02113718395345448,
+    "theta1_overshoot": 3.0308836789459734,
+    "theta2_overshoot": 0,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.019452526544741833,
+    "theta1_overshoot": 1.8318258319699778,
+    "theta2_overshoot": 0,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 80,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.017575258979150455,
+    "theta1_overshoot": 0.9494510582863621,
+    "theta2_overshoot": 0,
+    "peak_torque": 357.2343145925919,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 1.179932888188395,
+    "theta1_overshoot": 92.4515248293153,
+    "theta2_overshoot": 22.533987578883057,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.9133445034906813,
+    "theta1_overshoot": 81.367229733544,
+    "theta2_overshoot": 19.23927640084199,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.7079322321420487,
+    "theta1_overshoot": 71.51946015969015,
+    "theta2_overshoot": 16.424132135397073,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.5484358383138537,
+    "theta1_overshoot": 62.75513503669322,
+    "theta2_overshoot": 13.965366294194187,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.42339093521866966,
+    "theta1_overshoot": 54.921757145021054,
+    "theta2_overshoot": 11.829992179575394,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.3245471623912756,
+    "theta1_overshoot": 47.89807889954612,
+    "theta2_overshoot": 9.968530756639518,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.24595641693144865,
+    "theta1_overshoot": 41.58896524784513,
+    "theta2_overshoot": 8.322937061538056,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.18327445485507496,
+    "theta1_overshoot": 35.91619411533441,
+    "theta2_overshoot": 6.841708138685827,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.13327463891309016,
+    "theta1_overshoot": 30.815093868733822,
+    "theta2_overshoot": 5.48976616189929,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.09351876241466593,
+    "theta1_overshoot": 26.23013376943054,
+    "theta2_overshoot": 4.249451159998883,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.06213520558059139,
+    "theta1_overshoot": 22.11440070730993,
+    "theta2_overshoot": 3.1173701310245967,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.03767331403327188,
+    "theta1_overshoot": 18.42745000910943,
+    "theta2_overshoot": 2.100387600008095,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 65,
+    "settling_time": 4.241666666666666,
+    "steady_state_error": 0.019068162948970957,
+    "theta1_overshoot": 15.135744091390674,
+    "theta2_overshoot": 1.2126663007688494,
+    "peak_torque": 365.81501062557015,
+    "stable": true
+  },
+  {
+    "kp": 85,
+    "kd": 70,
+    "settling_time": 4.354166666666667,
+    "steady_state_error": 0.008011107371075275,
+    "theta1_overshoot": 12.211221335008144,
+    "theta2_overshoot": 0.47436327224851604,
+    "peak_torque": 365.81501062557015,
+    "stable": true
+  },
+  {
+    "kp": 85,
+    "kd": 75,
+    "settling_time": 4.458333333333333,
+    "steady_state_error": 0.007534292446981964,
+    "theta1_overshoot": 9.631262510513485,
+    "theta2_overshoot": 0,
+    "peak_torque": 365.81501062557015,
+    "stable": true
+  },
+  {
+    "kp": 85,
+    "kd": 80,
+    "settling_time": null,
+    "steady_state_error": 0.012430327850436223,
+    "theta1_overshoot": 7.378123665977923,
+    "theta2_overshoot": 0,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 85,
+    "settling_time": null,
+    "steady_state_error": 0.016115438637252056,
+    "theta1_overshoot": 5.438883446320342,
+    "theta2_overshoot": 0,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.017670608924344505,
+    "theta1_overshoot": 3.804940905457721,
+    "theta2_overshoot": 0,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.017561170185302177,
+    "theta1_overshoot": 2.471644720100124,
+    "theta2_overshoot": 0,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 85,
+    "kd": 100,
+    "settling_time": null,
+    "steady_state_error": 0.01647397790099337,
+    "theta1_overshoot": 1.4371759327797133,
+    "theta2_overshoot": 0,
+    "peak_torque": 365.81501062557015,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 1.0832831549966253,
+    "theta1_overshoot": 92.78129228478173,
+    "theta2_overshoot": 22.649479044257088,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.846933772390463,
+    "theta1_overshoot": 81.95753964825074,
+    "theta2_overshoot": 19.410155379795494,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.6647109242751139,
+    "theta1_overshoot": 72.30686283912429,
+    "theta2_overshoot": 16.648749412748884,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.5227610283145917,
+    "theta1_overshoot": 63.693171307916465,
+    "theta2_overshoot": 14.226137480696346,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.41074490224769095,
+    "theta1_overshoot": 55.973166102500535,
+    "theta2_overshoot": 12.11327838665406,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.3213505221174337,
+    "theta1_overshoot": 49.03222459192283,
+    "theta2_overshoot": 10.266705869746202,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.24940018767593664,
+    "theta1_overshoot": 42.77965304482176,
+    "theta2_overshoot": 8.633080135883937,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.19117414034593325,
+    "theta1_overshoot": 37.14169347475046,
+    "theta2_overshoot": 7.163141622555311,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.14394603229398786,
+    "theta1_overshoot": 32.056469044569184,
+    "theta2_overshoot": 5.821269074259887,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.10567397351108522,
+    "theta1_overshoot": 27.47122195487864,
+    "theta2_overshoot": 4.587581377820805,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.07479633476947495,
+    "theta1_overshoot": 23.340860445270497,
+    "theta2_overshoot": 3.45579759493206,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.0500969091955877,
+    "theta1_overshoot": 19.62664372195593,
+    "theta2_overshoot": 2.4298805815120925,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.030620871414817306,
+    "theta1_overshoot": 16.29576980773213,
+    "theta2_overshoot": 1.520881577832549,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 70,
+    "settling_time": 4.1875,
+    "steady_state_error": 0.015682674314158707,
+    "theta1_overshoot": 13.320792366479994,
+    "theta2_overshoot": 0.745380593670886,
+    "peak_torque": 374.4049960194176,
+    "stable": true
+  },
+  {
+    "kp": 90,
+    "kd": 75,
+    "settling_time": 4.291666666666667,
+    "steady_state_error": 0.006668732027159248,
+    "theta1_overshoot": 10.679051325795951,
+    "theta2_overshoot": 0.1258334666213664,
+    "peak_torque": 374.4049960194176,
+    "stable": true
+  },
+  {
+    "kp": 90,
+    "kd": 80,
+    "settling_time": 4.3875,
+    "steady_state_error": 0.006383360754416913,
+    "theta1_overshoot": 8.352515785078571,
+    "theta2_overshoot": 0,
+    "peak_torque": 374.4049960194176,
+    "stable": true
+  },
+  {
+    "kp": 90,
+    "kd": 85,
+    "settling_time": 4.466666666666667,
+    "steady_state_error": 0.010406086627006646,
+    "theta1_overshoot": 6.327448517642965,
+    "theta2_overshoot": 0,
+    "peak_torque": 374.4049960194176,
+    "stable": true
+  },
+  {
+    "kp": 90,
+    "kd": 90,
+    "settling_time": null,
+    "steady_state_error": 0.013454930372424725,
+    "theta1_overshoot": 4.594168499586949,
+    "theta2_overshoot": 0,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 95,
+    "settling_time": null,
+    "steady_state_error": 0.014805599138259714,
+    "theta1_overshoot": 3.146640574910763,
+    "theta2_overshoot": 0,
+    "peak_torque": 374.4049960194176,
+    "stable": false
+  },
+  {
+    "kp": 90,
+    "kd": 100,
+    "settling_time": 4.458333333333333,
+    "steady_state_error": 0.014850884781183548,
+    "theta1_overshoot": 1.9820784380212473,
+    "theta2_overshoot": 0,
+    "peak_torque": 374.4049960194176,
+    "stable": true
+  },
+  {
+    "kp": 95,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.9517437598782513,
+    "theta1_overshoot": 93.08543547994925,
+    "theta2_overshoot": 22.759220202025798,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.7521269796069385,
+    "theta1_overshoot": 82.50417853526224,
+    "theta2_overshoot": 19.568421484537456,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.5983083462131324,
+    "theta1_overshoot": 73.0386553294754,
+    "theta2_overshoot": 16.857701031408716,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.4780994509019411,
+    "theta1_overshoot": 64.56684537319117,
+    "theta2_overshoot": 14.46976070229031,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.38250806754963984,
+    "theta1_overshoot": 56.95474937727775,
+    "theta2_overshoot": 12.378990582409257,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.3053426571108896,
+    "theta1_overshoot": 50.09373423091981,
+    "theta2_overshoot": 10.546735608776771,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.2423357257842785,
+    "theta1_overshoot": 43.89744505157956,
+    "theta2_overshoot": 8.924402901436952,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.19049536468222347,
+    "theta1_overshoot": 38.29514658988968,
+    "theta2_overshoot": 7.465026051211206,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.1476715057919925,
+    "theta1_overshoot": 33.22848841818761,
+    "theta2_overshoot": 6.132777962314569,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.1122753481651792,
+    "theta1_overshoot": 28.646644964908134,
+    "theta2_overshoot": 4.906193832127954,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.08309944619633326,
+    "theta1_overshoot": 24.50645847916812,
+    "theta2_overshoot": 3.7766569311299762,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.059202148593538964,
+    "theta1_overshoot": 20.770688565394614,
+    "theta2_overshoot": 2.7454914966182637,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.039834025613298976,
+    "theta1_overshoot": 17.40742257134373,
+    "theta2_overshoot": 1.8211444640129408,
+    "peak_torque": 383.00364575077,
+    "stable": false
+  },
+  {
+    "kp": 95,
+    "kd": 70,
+    "settling_time": 4.0375,
+    "steady_state_error": 0.024397981284811934,
+    "theta1_overshoot": 14.389805496228892,
+    "theta2_overshoot": 1.0172893110613064,
+    "peak_torque": 383.00364575077,
+    "stable": true
+  },
+  {
+    "kp": 95,
+    "kd": 75,
+    "settling_time": 4.1375,
+    "steady_state_error": 0.012499670211393163,
+    "theta1_overshoot": 11.695473367545544,
+    "theta2_overshoot": 0.35244339124144797,
+    "peak_torque": 383.00364575077,
+    "stable": true
+  },
+  {
+    "kp": 95,
+    "kd": 80,
+    "settling_time": 4.233333333333333,
+    "steady_state_error": 0.005508349686494798,
+    "theta1_overshoot": 9.30604543189237,
+    "theta2_overshoot": 0,
+    "peak_torque": 383.00364575077,
+    "stable": true
+  },
+  {
+    "kp": 95,
+    "kd": 85,
+    "settling_time": 4.3125,
+    "steady_state_error": 0.005669878652008315,
+    "theta1_overshoot": 7.207309296461671,
+    "theta2_overshoot": 0,
+    "peak_torque": 383.00364575077,
+    "stable": true
+  },
+  {
+    "kp": 95,
+    "kd": 90,
+    "settling_time": 4.375,
+    "steady_state_error": 0.00901959482005777,
+    "theta1_overshoot": 5.388696147021287,
+    "theta2_overshoot": 0,
+    "peak_torque": 383.00364575077,
+    "stable": true
+  },
+  {
+    "kp": 95,
+    "kd": 95,
+    "settling_time": 4.4,
+    "steady_state_error": 0.011502393649775296,
+    "theta1_overshoot": 3.8431664542528674,
+    "theta2_overshoot": 0,
+    "peak_torque": 383.00364575077,
+    "stable": true
+  },
+  {
+    "kp": 95,
+    "kd": 100,
+    "settling_time": 4.379166666666666,
+    "steady_state_error": 0.012644086243807069,
+    "theta1_overshoot": 2.566770927693042,
+    "theta2_overshoot": 0,
+    "peak_torque": 383.00364575077,
+    "stable": true
+  },
+  {
+    "kp": 100,
+    "kd": 5,
+    "settling_time": null,
+    "steady_state_error": 0.7932212167523358,
+    "theta1_overshoot": 93.36708410045364,
+    "theta2_overshoot": 22.863590493278245,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 10,
+    "settling_time": null,
+    "steady_state_error": 0.6347958658219696,
+    "theta1_overshoot": 83.01239472406552,
+    "theta2_overshoot": 19.715582755160195,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 15,
+    "settling_time": null,
+    "steady_state_error": 0.5131013303385666,
+    "theta1_overshoot": 73.72068935808048,
+    "theta2_overshoot": 17.052794094310773,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 20,
+    "settling_time": null,
+    "steady_state_error": 0.4177217226855763,
+    "theta1_overshoot": 65.38300876770224,
+    "theta2_overshoot": 14.69819053601871,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 25,
+    "settling_time": null,
+    "steady_state_error": 0.34111458577939935,
+    "theta1_overshoot": 57.87425483621447,
+    "theta2_overshoot": 12.628915017211973,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 30,
+    "settling_time": null,
+    "steady_state_error": 0.2783129391723918,
+    "theta1_overshoot": 51.09062261627292,
+    "theta2_overshoot": 10.810576348848368,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 35,
+    "settling_time": null,
+    "steady_state_error": 0.22604913776515786,
+    "theta1_overshoot": 44.94958543504066,
+    "theta2_overshoot": 9.198980329221342,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 40,
+    "settling_time": null,
+    "steady_state_error": 0.18212867151933007,
+    "theta1_overshoot": 39.38397304951982,
+    "theta2_overshoot": 7.749400167807345,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 45,
+    "settling_time": null,
+    "steady_state_error": 0.14502956440844125,
+    "theta1_overshoot": 34.33751328115849,
+    "theta2_overshoot": 6.426321321355831,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 50,
+    "settling_time": null,
+    "steady_state_error": 0.11365465312420085,
+    "theta1_overshoot": 29.762096469404696,
+    "theta2_overshoot": 5.2071223223904735,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 55,
+    "settling_time": null,
+    "steady_state_error": 0.08718007568985889,
+    "theta1_overshoot": 25.616112422768524,
+    "theta2_overshoot": 4.0811177556538585,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 60,
+    "settling_time": null,
+    "steady_state_error": 0.06496269154693733,
+    "theta1_overshoot": 21.863514712877656,
+    "theta2_overshoot": 3.0473947991113635,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 65,
+    "settling_time": null,
+    "steady_state_error": 0.04648364454477352,
+    "theta1_overshoot": 18.47358280080536,
+    "theta2_overshoot": 2.1121876609942207,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 70,
+    "settling_time": null,
+    "steady_state_error": 0.03131564744036242,
+    "theta1_overshoot": 15.419838682941853,
+    "theta2_overshoot": 1.2866547121656622,
+    "peak_torque": 391.610389087457,
+    "stable": false
+  },
+  {
+    "kp": 100,
+    "kd": 75,
+    "settling_time": 3.995833333333333,
+    "steady_state_error": 0.01911404929530496,
+    "theta1_overshoot": 12.680338288258,
+    "theta2_overshoot": 0.5864146187680919,
+    "peak_torque": 391.610389087457,
+    "stable": true
+  },
+  {
+    "kp": 100,
+    "kd": 80,
+    "settling_time": 4.0875,
+    "steady_state_error": 0.00971318241762949,
+    "theta1_overshoot": 10.236587962917005,
+    "theta2_overshoot": 0.032318413366948934,
+    "peak_torque": 391.610389087457,
+    "stable": true
+  },
+  {
+    "kp": 100,
+    "kd": 85,
+    "settling_time": 4.170833333333333,
+    "steady_state_error": 0.0045810217668608546,
+    "theta1_overshoot": 8.07412265924411,
+    "theta2_overshoot": 0,
+    "peak_torque": 391.610389087457,
+    "stable": true
+  },
+  {
+    "kp": 100,
+    "kd": 90,
+    "settling_time": 4.241666666666666,
+    "steady_state_error": 0.005241934273704496,
+    "theta1_overshoot": 6.181714500615679,
+    "theta2_overshoot": 0,
+    "peak_torque": 391.610389087457,
+    "stable": true
+  },
+  {
+    "kp": 100,
+    "kd": 95,
+    "settling_time": 4.283333333333333,
+    "steady_state_error": 0.008038737069557529,
+    "theta1_overshoot": 4.551380902933296,
+    "theta2_overshoot": 0,
+    "peak_torque": 391.610389087457,
+    "stable": true
+  },
+  {
+    "kp": 100,
+    "kd": 100,
+    "settling_time": 4.2875,
+    "steady_state_error": 0.010042179809504797,
+    "theta1_overshoot": 3.1782139094035093,
+    "theta2_overshoot": 0,
+    "peak_torque": 391.610389087457,
+    "stable": true
+  }
+]
